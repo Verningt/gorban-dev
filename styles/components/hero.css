@@ -6,22 +6,22 @@
 }
 
 .hero__tagline {
-  padding-top: 3rem;
+  padding-top: 8rem;
   text-align: center;
-  min-width: 400px;
-  max-width: 400px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 .hero__tagline-l {
-  font-size: var(--size-4xl);
-  color: var(--clr-stone600);
+  font-size: var(--size-5xl);
+  color: var(--clr-red800);
   line-height: 1;
   padding-bottom: 1rem;
 }
 
 .hero__tagline-s {
   /* padding-top: 1rem; */
-  font-size: var(--size-l);
+  font-size: var(--size-s);
   color: var(--clr-stone600);
 }
 
