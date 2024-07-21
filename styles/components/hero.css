@@ -50,7 +50,9 @@
   position: absolute;
   left: 100%;
   animation: autoRun 60s linear infinite;
-  animation-delay: calc((60s / var(--quantity)) * (var(--position) - 1));
+  animation-delay: calc(
+    (60s / var(--quantity)) * (var(--position) - var(--quantity))
+  );
 }
 
 .slider .list .item img {
