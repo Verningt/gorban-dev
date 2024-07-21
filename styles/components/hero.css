@@ -8,13 +8,12 @@
 .hero__tagline {
   padding-top: 5rem;
   text-align: left;
-  min-width: 36 0px;
-  max-width: 300px;
+  width: 350px;
 }
 
 .hero__tagline-l {
-  font-size: var(--size-5xl);
-  color: var(--clr-red800);
+  font-size: var(--size-4xl);
+  color: var(--clr-red-dark);
   line-height: 1;
   padding-bottom: 1rem;
 }
@@ -22,7 +21,7 @@
 .hero__tagline-s {
   /* padding-top: 1rem; */
   font-size: var(--size-s);
-  color: var(--clr-stone600);
+  color: var(--clr-red-dark);
 }
 
 .hero__btn {
@@ -34,7 +33,7 @@
   width: 100%;
   height: var(--height);
   overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, #000 20% 80%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
   z-index: -1;
 }
 
