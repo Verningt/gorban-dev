@@ -14,18 +14,18 @@
   font-size: var(--size-3xl);
   color: var(--clr-red-dark);
   padding-bottom: 0.5rem;
-  font-weight: 900;
-}
-
-.hero__tagline-s {
-  padding-top: 1rem;
-  font-size: var(--size-l);
-  color: var(--clr-stone600);
   font-weight: 400;
 }
 
+.hero__tagline-s {
+  /* padding-top: 1rem; */
+  font-size: var(--size-l);
+  color: var(--clr-stone600);
+  font-weight: 100;
+}
+
 .hero__btn {
-  margin-top: 1rem;
+  margin-top: 2rem;
   /* margin-bottom: 5rem; */
 }
 

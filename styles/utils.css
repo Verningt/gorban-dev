@@ -32,6 +32,7 @@
   padding: 0.9em 2em;
   border-radius: 5rem;
   transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px -30px 60px -12px inset;
 }
 
 .btn:hover {
@@ -52,8 +53,8 @@
 }
 
 span {
-  color: var(--clr-red600);
-  font-weight: 800;
+  color: var(--clr-red800);
+  font-weight: 900;
 }
 
 /* xxs */
