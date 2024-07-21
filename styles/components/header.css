@@ -1,0 +1,132 @@
+.header {
+  margin: 1rem auto 0;
+  background-color: var(--clr-stone-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 5rem;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 25px 25px;
+}
+
+.header__menu {
+  display: none;
+}
+
+.header__left-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 0.1em;
+}
+
+.header__logo {
+  width: 80px;
+}
+
+.header__text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: uppercase;
+  border-left: 1px solid var(--clr-stone400);
+  padding-left: 0.5em;
+  transform: scale(0.9);
+}
+
+.header__text-l {
+  font-weight: 800;
+  color: var(--clr-red600);
+  font-size: var(--size-4xl);
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.header__text-s {
+  font-size: 1.03rem;
+  line-height: 0.9;
+  color: var(--clr-stone800);
+}
+
+.header__bars {
+  color: var(--clr-stone800);
+  width: var(--size-3xl);
+  height: var(--size-3xl);
+  display: block;
+}
+
+.header__bars:hover {
+  transform: translateX(0px);
+  background: none;
+}
+
+/* xs */
+@media (min-width: 475px) {
+}
+
+/* sm */
+/* @media (min-width: 640px) {
+} */
+
+/* md */
+@media (min-width: 768px) {
+  .header__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 2em;
+  }
+
+  .header__link {
+    font-size: var(--size-s);
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--clr-stone600);
+    /* text-transform: uppercase; */
+    transition: 0.3s;
+    position: relative;
+  }
+
+  .header__link:hover {
+    color: var(--clr-red600);
+  }
+
+  .header__link::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--clr-red600);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: 0.3s ease;
+  }
+
+  .header__link:hover::after {
+    opacity: 1;
+    transform: translate(-50%, 5px);
+  }
+
+  .header__bars {
+    display: none;
+  }
+}
+
+/* lg */
+/* @media (min-width: 1024px) {
+} */
+
+/* xl */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */

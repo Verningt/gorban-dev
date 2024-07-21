@@ -1,0 +1,72 @@
+:root {
+  /* colors */
+  --clr-stone-dark: #0c0a09;
+  --clr-stone-light: #f5f5f4;
+  --clr-stone200: #e7e5e4;
+  --clr-stone400: #a8a29e;
+  --clr-stone600: #57534e;
+  --clr-stone800: #292524;
+
+  --clr-red-dark: #160303;
+  --clr-red-light: #fef2f2;
+  --clr-red400: #f87171;
+  --clr-red600: #dc2626;
+  --clr-red800: #991b1b;
+
+  --clr-btn: #f44e3f;
+
+  --clr-sky-dark: #172554;
+  --clr-sky800: #155e75;
+  --clr-sky: #eff6ff;
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+  /* border: 0.5px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  background-color: var(--clr-stone200);
+  color: var(--clr-stone-dark);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
