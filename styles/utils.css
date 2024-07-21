@@ -65,28 +65,28 @@ span {
 /* xs */
 @media (min-width: 475px) {
   .container {
-    max-width: 450px;
+    max-width: 475px;
   }
 }
 
 /* sm */
 @media (min-width: 640px) {
   .container {
-    max-width: 540px;
+    max-width: 640px;
   }
 }
 
 /* md */
 @media (min-width: 768px) {
   .container {
-    max-width: 668px;
+    max-width: 768px;
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
   .container {
-    max-width: 824px;
+    max-width: 1024px;
   }
 
   .section {
@@ -97,7 +97,7 @@ span {
 /* xl */
 @media (min-width: 1280px) {
   .container {
-    max-width: 1024px;
+    max-width: 1280px;
   }
 }
 
