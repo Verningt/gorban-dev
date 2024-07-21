@@ -1,12 +1,12 @@
 .hero {
-  padding-top: 8rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .hero__tagline {
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
   min-width: 400px;
   max-width: 400px;
@@ -20,17 +20,17 @@
 }
 
 .hero__tagline-s {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   font-size: var(--size-l);
   color: var(--clr-stone600);
 }
 
 .hero__btn {
   margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .slider {
-  padding-top: 5rem;
   width: 100%;
   height: var(--height);
   overflow: hidden;
@@ -49,10 +49,10 @@
   height: var(--height);
   position: absolute;
   left: 100%;
-  animation: autoRun 60s linear infinite;
+  animation: autoRun 100s linear infinite;
   animation-delay: calc(
-    (60s / var(--quantity)) * (var(--position) - var(--quantity))
-  );
+    (100s / var(--quantity)) * (var(--position) - var(--quantity))
+  ) !important;
 }
 
 .slider .list .item img {
@@ -71,4 +71,22 @@
 
 .slider:hover .item {
   animation-play-state: paused !important;
+}
+
+.slider[reverse="true"] .item {
+  animation: reversePlay 100s linear infinite;
+}
+
+@keyframes reversePlay {
+  from {
+    left: calc(var(--width) * -1);
+  }
+  to {
+    left: 100%;
+  }
+}
+
+.hero__logo {
+  padding-top: 5rem;
+  width: 200px;
 }
