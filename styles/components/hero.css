@@ -94,7 +94,7 @@
 }
 
 .slider__container {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: var(--clr-stone-dark);
 }
