@@ -17,8 +17,9 @@
 .header__left-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   cursor: pointer;
+  gap: 0.5rem;
 }
 
 .header__logo {
@@ -32,19 +33,18 @@
   text-transform: uppercase;
   border-left: 1px solid var(--clr-stone400);
   padding-left: 0.5em;
-  scale: 0.8;
 }
 
 .header__text-l {
   font-weight: 800;
   color: var(--clr-red600);
-  font-size: var(--size-4xl);
+  font-size: var(--size-3xl);
   line-height: 0.9;
   letter-spacing: -0.05em;
 }
 
 .header__text-s {
-  font-size: 1.03rem;
+  font-size: 0.85rem;
   line-height: 0.9;
   color: var(--clr-stone800);
 }
