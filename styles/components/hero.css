@@ -13,15 +13,15 @@
 
 .hero__tagline-l {
   font-size: var(--size-5xl);
-  color: var(--clr-red800);
-  line-height: 1;
+  color: var(--clr-stone800);
   padding-bottom: 0.5rem;
 }
 
 .hero__tagline-s {
   padding-top: 1rem;
-  font-size: var(--size-lg);
-  color: var(--clr-stone600);
+  font-size: var(--size-xl);
+  color: var(--clr-stone800);
+  font-weight: 800;
 }
 
 .hero__btn {
