@@ -19,7 +19,7 @@
 }
 
 .hero__tagline-s {
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
   font-size: var(--size-lg);
   color: var(--clr-stone600);
 }
@@ -96,5 +96,5 @@
 .slider__container {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: var(--clr-stone800);
+  background-color: var(--clr-stone-dark);
 }
