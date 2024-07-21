@@ -24,7 +24,7 @@
 .header__left-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   cursor: pointer;
   gap: 0.5rem;
 }
@@ -38,7 +38,8 @@
   font-weight: 900;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
   border-left: 1px solid var(--clr-stone400);
   padding-left: 0.5em;
@@ -47,12 +48,12 @@
 .header__text-l {
   color: var(--clr-red800);
   font-size: var(--size-2xl);
-  line-height: 0.9;
+  line-height: 1;
 }
 
 .header__text-s {
   font-size: 0.69rem;
-  line-height: 0.9;
+  line-height: 0.5;
   color: var(--clr-stone800);
 }
 
