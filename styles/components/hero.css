@@ -6,13 +6,13 @@
 }
 
 .hero__tagline {
-  text-align: center;
+  text-align: left;
   width: 370px;
 }
 
 .hero__tagline-l {
   font-size: var(--size-3xl);
-  color: var(--clr-red-dark);
+  color: var(--clr-stone800);
   padding-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -22,6 +22,7 @@
   font-size: var(--size-l);
   color: var(--clr-stone600);
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .hero__btn {
@@ -86,16 +87,11 @@
   }
 }
 
-.hero__logo {
-  padding-top: 3rem;
-  margin: 0 auto;
-  padding-bottom: 5rem;
-  width: 250px;
-}
-
 .slider__container {
   /* margin-top: 5.6rem; */
   padding-top: 6.5rem;
   padding-bottom: 2rem;
+  /* border-radius: 0 0 1rem 1rem; */
   background-color: var(--clr-stone-dark);
+  /* box-shadow: rgba(149, 157, 165, 1) 0px 15px 25px; */
 }

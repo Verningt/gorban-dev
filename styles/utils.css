@@ -24,7 +24,7 @@
 
 .btn {
   display: inline-block;
-  background-color: var(--clr-red600);
+  background-color: var(--clr-red800);
   text-decoration: none;
   letter-spacing: 0.05em;
   color: var(--clr-red-light);
@@ -32,11 +32,11 @@
   padding: 0.9em 2em;
   border-radius: 5rem;
   transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px -30px 60px -12px inset;
 }
 
 .btn:hover {
   transform: translateY(3px);
+  background-color: var(--clr-red600);
   box-shadow: rgba(0, 0, 0, 0.25) 0px -30px 60px -12px inset;
 }
 

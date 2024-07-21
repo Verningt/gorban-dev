@@ -1,0 +1,13 @@
+.about {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.about__img {
+  border-radius: 1rem;
+  max-width: 400px;
+}
