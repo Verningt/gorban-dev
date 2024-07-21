@@ -3,7 +3,6 @@
   left: 50%;
   transform: translateX(-50%);
   top: 1rem;
-
   background-color: var(--clr-stone-light);
   display: flex;
   justify-content: space-between;

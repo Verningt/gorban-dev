@@ -6,8 +6,8 @@
 }
 
 .hero__tagline {
-  padding-top: 8rem;
-  text-align: center;
+  padding-top: 5rem;
+  text-align: left;
   min-width: 300px;
   max-width: 300px;
 }
@@ -26,7 +26,7 @@
 }
 
 .hero__btn {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
 }
 
