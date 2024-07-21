@@ -7,7 +7,7 @@
 
 .hero__tagline {
   padding-top: 5rem;
-  text-align: center;
+  text-align: left;
   min-width: 300px;
   max-width: 300px;
 }
@@ -35,6 +35,7 @@
   height: var(--height);
   overflow: hidden;
   mask-image: linear-gradient(to right, transparent, #000 20% 80%, transparent);
+  z-index: -1;
 }
 
 .slider .list {
