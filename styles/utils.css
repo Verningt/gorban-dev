@@ -56,9 +56,9 @@ span {
 }
 
 /* xxs */
-@media (min-width: 425px) {
+@media (min-width: 375px) {
   .container {
-    max-width: 405px;
+    max-width: 375px;
   }
 }
 
