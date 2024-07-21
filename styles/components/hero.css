@@ -8,7 +8,7 @@
 .hero__tagline {
   padding-top: 5rem;
   text-align: left;
-  min-width: 300px;
+  min-width: 36 0px;
   max-width: 300px;
 }
 
@@ -90,4 +90,10 @@
 .hero__logo {
   padding-top: 5rem;
   width: 200px;
+}
+
+.slider__container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--clr-stone-dark);
 }
