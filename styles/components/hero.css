@@ -21,7 +21,7 @@
 .hero__tagline-s {
   /* padding-top: 1rem; */
   font-size: var(--size-s);
-  color: var(--clr-red-dark);
+  color: var(--clr-stone600);
 }
 
 .hero__btn {

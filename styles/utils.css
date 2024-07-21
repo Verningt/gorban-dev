@@ -24,11 +24,12 @@
 
 .btn {
   display: inline-block;
-  background-color: var(--clr-red600);
+  background-color: var(--clr-btn);
   text-decoration: none;
   letter-spacing: 0.05em;
   color: var(--clr-red-light);
-  padding: 0.9em 2.5em;
+  text-align: center;
+  padding: 0.9em 2em;
   border-radius: 5rem;
   transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
 }
@@ -51,7 +52,7 @@
 }
 
 span {
-  color: var(--clr-red600);
+  color: var(--clr-btn);
   font-weight: 600;
 }
 
