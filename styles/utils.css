@@ -55,6 +55,13 @@ span {
   font-weight: 600;
 }
 
+/* xxs */
+@media (min-width: 425px) {
+  .container {
+    max-width: 405px;
+  }
+}
+
 /* xs */
 @media (min-width: 475px) {
   .container {

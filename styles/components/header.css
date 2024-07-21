@@ -4,8 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
   border-radius: 5rem;
   box-shadow: rgba(149, 157, 165, 0.1) 0px 25px 25px;
 }
@@ -19,11 +19,10 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  gap: 0.1em;
 }
 
 .header__logo {
-  width: 80px;
+  width: 70px;
 }
 
 .header__text-container {
@@ -33,7 +32,7 @@
   text-transform: uppercase;
   border-left: 1px solid var(--clr-stone400);
   padding-left: 0.5em;
-  transform: scale(0.9);
+  scale: 0.8;
 }
 
 .header__text-l {
