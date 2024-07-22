@@ -2,7 +2,7 @@
   width: 100%;
   height: var(--height);
   overflow: hidden;
-  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 20% 80%, transparent);
   z-index: -1;
 }
 
@@ -60,6 +60,6 @@
   /* padding-top: 6.5rem; */
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: var(--clr-stone-dark);
+  /* background-color: var(--clr-stone-dark); */
   /* box-shadow: rgba(149, 157, 165, 1) 0px 15px 25px; */
 }

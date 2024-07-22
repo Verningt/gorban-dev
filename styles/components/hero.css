@@ -1,13 +1,12 @@
 .hero {
-  padding-top: 2rem;
+  padding-top: 8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: var(--clr-stone-dark); */
 }
 
 .hero__text {
-  text-align: left;
+  text-align: center;
   width: 370px;
 }
 
@@ -19,13 +18,20 @@
 }
 
 .hero__text2 {
-  /* padding-top: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: var(--size-l);
   color: var(--clr-stone600);
-  font-weight: 100;
-  text-transform: uppercase;
+  font-weight: 400;
+  /* text-transform: uppercase; */
 }
 
-.hero__btn {
-  margin-top: 1.5rem;
+.hero__btn1 {
+  margin-top: 1rem;
+}
+
+a.hero__btn2 {
+  margin-top: 1rem;
+  background-color: #d6d3d1;
+  color: var(--clr-stone600);
 }
