@@ -1,12 +1,12 @@
 .about {
   padding-top: 6rem;
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .about__img {
@@ -22,22 +22,22 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px; */
 }
 
 .card__text {
-  max-width: 70%;
+  max-width: 65%;
 }
 
 .card__text1 {
-  font-size: var(--size-xl);
+  font-size: var(--size-2xl);
   color: var(--clr-peach);
 }
 
 .card__text2 {
   padding-top: 0.5rem;
-  font-size: var(--size-s);
-  color: var(--clr-stone600);
+  font-size: var(--size-lg);
+  color: var(--clr-stone800);
 }
 
 .about__logo {
