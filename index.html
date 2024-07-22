@@ -2,27 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.cdnfonts.com/css/orbitron" rel="stylesheet" />
-
     <link
       rel="stylesheet"
       type="text/css"
       href="//fonts.googleapis.com/css?family=Orbitron"
     />
-    <title>Dev server</title>
+    <title>Gorban Transportation</title>
   </head>
   <body>
+    <!-- header starts -->
     <header class="header">
-      <div class="header__left-container">
+      <div class="header__left">
         <img class="header__logo" src="/logo.png" alt="Logo image" />
-        <div class="header__text-container">
-          <span class="header__text-l">gorban</span>
-          <span class="header__text-s">transportation</span>
+        <div class="header__text">
+          <span class="header__text1">gorban</span>
+          <span class="header__text2">transportation</span>
         </div>
       </div>
 
+      <!-- header menu starts -->
       <nav>
         <ul class="header__menu">
           <li>
@@ -32,13 +33,10 @@
             <a class="header__link" href="#about">About</a>
           </li>
           <li>
-            <a class="header__link" href="#feature">Gallery</a>
-          </li>
-          <li>
             <a class="header__link" href="#contact">Contact</a>
           </li>
         </ul>
-        <button class="header__bars">
+        <button class="header__toggle">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -52,42 +50,45 @@
           </svg>
         </button>
       </nav>
+      <!-- header menu ends -->
     </header>
+    <!-- header ends -->
 
+    <!-- slider starts -->
     <div class="slider__container">
       <div
         class="slider"
         style="--width: 200px; --height: 175px; --quantity: 10"
       >
-        <div class="list">
-          <div class="item" style="--position: 1">
+        <div class="slider__list">
+          <div class="slider__item" style="--position: 1">
             <img src="/public/imgs/img1.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 2">
+          <div class="slider__item" style="--position: 2">
             <img src="/public/imgs/img2.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 3">
+          <div class="slider__item" style="--position: 3">
             <img src="/public/imgs/img3.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 4">
+          <div class="slider__item" style="--position: 4">
             <img src="/public/imgs/img4.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 5">
+          <div class="slider__item" style="--position: 5">
             <img src="/public/imgs/img5.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 6">
+          <div class="slider__item" style="--position: 6">
             <img src="/public/imgs/img6.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 7">
+          <div class="slider__item" style="--position: 7">
             <img src="/public/imgs/img7.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 8">
+          <div class="slider__item" style="--position: 8">
             <img src="/public/imgs/img8.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 9">
+          <div class="slider__item" style="--position: 9">
             <img src="/public/imgs/img9.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 10">
+          <div class="slider__item" style="--position: 10">
             <img src="/public/imgs/img10.jpg" alt="" />
           </div>
         </div>
@@ -95,73 +96,74 @@
       <div
         class="slider"
         reverse="true"
-        style="--width: 200px; --height: 150px; --quantity: 10"
+        style="--width: 200px; --height: 148px; --quantity: 10"
       >
-        <div class="list">
-          <div class="item" style="--position: 1">
+        <div class="slider__list">
+          <div class="slider__item" style="--position: 1">
             <img src="/public/imgs/img10.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 2">
+          <div class="slider__item" style="--position: 2">
             <img src="/public/imgs/img9.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 3">
+          <div class="slider__item" style="--position: 3">
             <img src="/public/imgs/img8.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 4">
+          <div class="slider__item" style="--position: 4">
             <img src="/public/imgs/img7.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 5">
+          <div class="slider__item" style="--position: 5">
             <img src="/public/imgs/img6.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 6">
+          <div class="slider__item" style="--position: 6">
             <img src="/public/imgs/img5.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 7">
+          <div class="slider__item" style="--position: 7">
             <img src="/public/imgs/img4.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 8">
+          <div class="slider__item" style="--position: 8">
             <img src="/public/imgs/img3.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 9">
+          <div class="slider__item" style="--position: 9">
             <img src="/public/imgs/img2.jpg" alt="" />
           </div>
-          <div class="item" style="--position: 10">
+          <div class="slider__item" style="--position: 10">
             <img src="/public/imgs/img1.jpg" alt="" />
           </div>
         </div>
       </div>
     </div>
+    <!-- slider ends -->
+
+    <!-- hero starts -->
     <section class="hero container">
-      <div class="hero__tagline">
-        <h1 class="hero__tagline-l">
+      <div class="hero__text">
+        <h1 class="hero__text1">
           Transporting <span>Exclusive</span> and <span>Luxury</span> Vehicles
         </h1>
-        <p class="hero__tagline-s">
+
+        <p class="hero__text2">
           With <span>Unmatched Dedication</span> to Continuous Improvement and
           <span>Customer Satisfaction.</span>
         </p>
-        <a class="hero__btn btn" href="about">About</a>
-      </div>
-    </section>
-
-    <section class="about">
-      <img class="about__img" src="/public/imgs/img13.jpg" alt="Logo image" />
-      <div class="about__tagline">
-        <p class="hero__tagline1">
-          We have a large fleet of enclosed and open auto carriers, specialize
-          in quick and reliable vehicle transportation across the U.S. and
-          Canada.
-        </p>
-        <!-- <p class="hero__tagline2">
-          Additionally, we have a unique focus on transporting engineering and
-          prototype vehicles. We also have extensive experience in moving
-          autonomous vehicles, ensuring their safe and efficient delivery.
-        </p> -->
         <a class="hero__btn btn" href="contact">Contact</a>
       </div>
+      <!-- <img class="hero__logo" src="/public/logo.png" alt="" /> -->
     </section>
+    <!-- hero ends -->
 
+    <!-- about starts -->
+    <!-- <section class="about container">
+      <div class="about__img-container">
+        <img src="/public/imgs/img9.jpg" alt="" />
+      </div>
+      <p class="about__text1"></p>
+      <p class="about__text1"></p>
+    </section> -->
+    <!-- about ends -->
+
+    <!-- footer starts -->
     <footer></footer>
+    <!-- footer ends -->
     <script src="/src/app.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>

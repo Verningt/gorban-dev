@@ -11,8 +11,8 @@
   padding-bottom: 0.4rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  border-radius: 5rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 25px;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 15px 50px;
   z-index: 1;
 }
 
@@ -21,7 +21,7 @@
   position: relative;
 }
 
-.header__left-container {
+.header__left {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@
   width: 60px;
 }
 
-.header__text-container {
+.header__text {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
   display: flex;
@@ -45,26 +45,26 @@
   padding-left: 0.5em;
 }
 
-.header__text-l {
-  color: var(--clr-red800);
+.header__text1 {
+  color: var(--clr-red600);
   font-size: var(--size-2xl);
   line-height: 1;
 }
 
-.header__text-s {
+.header__text2 {
   font-size: 0.69rem;
   line-height: 0.5;
   color: var(--clr-stone800);
 }
 
-.header__bars {
+.header__toggle {
   color: var(--clr-stone800);
   width: var(--size-3xl);
   height: var(--size-3xl);
   display: block;
 }
 
-.header__bars:hover {
+.header__toggle:hover {
   transform: translateX(0px);
   background: none;
 }
@@ -72,13 +72,14 @@
 /* xxs */
 @media (min-width: 375px) {
   .header {
-    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
   }
 }
 
 /* xs */
-@media (min-width: 475px) {
-}
+/* @media (min-width: 475px) {
+} */
 
 /* sm */
 /* @media (min-width: 640px) {
@@ -86,6 +87,11 @@
 
 /* md */
 @media (min-width: 768px) {
+  .header {
+    min-width: 738px;
+    max-width: 738px;
+  }
+
   .header__menu {
     display: flex;
     align-items: center;
@@ -99,7 +105,6 @@
     text-decoration: none;
     font-weight: 600;
     color: var(--clr-stone600);
-    /* text-transform: uppercase; */
     transition: 0.3s;
     position: relative;
   }
@@ -128,7 +133,7 @@
     transform: translate(-50%, 5px);
   }
 
-  .header__bars {
+  .header__toggle {
     display: none;
   }
 }
