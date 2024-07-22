@@ -20,9 +20,9 @@
 .hero__text2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: var(--size-l);
+  font-size: var(--size-s);
   color: var(--clr-stone800);
-  font-weight: 400;
+  font-weight: 100;
 }
 
 .hero__btn1 {
