@@ -26,18 +26,18 @@
 }
 
 .card__text {
-  max-width: 65%;
+  max-width: 70%;
 }
 
 .card__text1 {
-  font-size: var(--size-2xl);
-  color: var(--clr-peach);
+  font-size: var(--size-xl);
+  color: var(--clr-stone00);
 }
 
 .card__text2 {
   padding-top: 0.5rem;
-  font-size: var(--size-lg);
-  color: var(--clr-stone800);
+  font-size: var(--size-base);
+  color: var(--clr-stone700);
 }
 
 .about__logo {
