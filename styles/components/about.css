@@ -55,7 +55,7 @@
 .about__title {
   align-self: flex-start;
   color: var(--clr-stone700);
-  font-size: var(--size-4xl);
+  font-size: var(--size-3xl);
   padding-bottom: 3rem;
   padding-top: 6rem;
   font-weight: 900;
