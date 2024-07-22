@@ -13,13 +13,13 @@
 
 .hero__text1 {
   font-size: var(--size-3xl);
-  color: var(--clr-stone600);
+  color: var(--clr-stone8900);
   padding-bottom: 0.5rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .hero__text2 {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   font-size: var(--size-l);
   color: var(--clr-stone600);
   font-weight: 100;
