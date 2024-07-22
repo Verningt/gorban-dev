@@ -32,7 +32,7 @@
   font-weight: 800;
   text-align: center;
   padding: 1em 2em;
-  border-radius: 0.9rem;
+  border-radius: 0.5rem;
   transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
 }
 
@@ -45,8 +45,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .section {
