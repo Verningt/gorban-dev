@@ -16,7 +16,7 @@
 
 .slider .slider__list .slider__item {
   width: var(--width);
-  height: var(--height);
+  /* height: var(--height); */
   position: absolute;
   left: 100%;
   animation: autoRun 200s linear infinite;
