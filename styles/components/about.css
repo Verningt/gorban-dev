@@ -31,13 +31,13 @@
 
 .card__text1 {
   font-size: var(--size-xl);
-  color: var(--clr-stone00);
+  color: var(--clr-stone800);
 }
 
 .card__text2 {
   padding-top: 0.5rem;
   font-size: var(--size-base);
-  color: var(--clr-stone700);
+  color: var(--clr-stone600);
 }
 
 .about__logo {
