@@ -38,7 +38,7 @@
 
 .card__text1 {
   font-size: var(--size-xl);
-  color: var(--clr-stone800);
+  color: var(--clr-peach);
 }
 
 .card__text2 {
@@ -47,16 +47,10 @@
   color: var(--clr-stone600);
 }
 
-.about__logo {
-  /* padding-bottom: 4rem; */
-  width: 200px;
-}
-
 .about__title {
   align-self: flex-start;
   color: var(--clr-stone700);
   font-size: var(--size-3xl);
-  padding-bottom: 3rem;
-  padding-top: 6rem;
+  padding-bottom: 1rem;
   font-weight: 900;
 }
