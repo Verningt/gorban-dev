@@ -58,7 +58,7 @@
 }
 
 .header__toggle {
-  color: var(--clr-peach);
+  color: var(--clr-stone600);
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;
