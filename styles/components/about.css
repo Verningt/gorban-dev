@@ -39,3 +39,7 @@
   font-size: var(--size-s);
   color: var(--clr-stone600);
 }
+
+.about__logo {
+  padding-bottom: 4rem;
+}
