@@ -12,7 +12,7 @@
 
 .hero__text1 {
   font-size: var(--size-3xl);
-  color: #574240;
+  color: var(--clr-stone800);
   font-weight: 900;
 }
 
