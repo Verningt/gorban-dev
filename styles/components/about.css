@@ -1,13 +1,36 @@
 .about {
   padding-top: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: left;
+  gap: 3rem;
 }
 
 .about__img {
   border-radius: 1rem;
   /* max-width: 400px; */
+}
+
+.about__card {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card__text {
+  max-width: 70%;
+}
+
+.card__text1 {
+  font-size: var(--size-xl);
+  color: var(--clr-peach);
+}
+
+.card__text2 {
+  padding-top: 0.5rem;
+  font-size: var(--size-s);
+  color: var(--clr-stone600);
 }

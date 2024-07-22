@@ -46,7 +46,7 @@
 }
 
 .header__text1 {
-  color: var(--clr-red800);
+  color: var(--clr-red600);
   font-size: var(--size-2xl);
   line-height: 1;
 }
@@ -58,7 +58,7 @@
 }
 
 .header__toggle {
-  color: var(--clr-red800);
+  color: var(--clr-peach);
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;
