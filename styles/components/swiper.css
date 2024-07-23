@@ -209,7 +209,7 @@
 }
 
 .modal {
-  top: 25%;
+  top: 30%;
   --bs-modal-padding: 0;
 }
 
@@ -253,6 +253,6 @@
   padding: 0;
 }
 
-.btn-secondary {
-  border: none;
+.modal-backdrop.show {
+  opacity: 0.85;
 }
