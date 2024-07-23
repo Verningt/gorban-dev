@@ -1,109 +1,208 @@
-.container.gallery-container {
-  background-color: #fff;
-  color: #35373a;
-  min-height: 100vh;
-  padding: 30px 50px;
+#gallery img {
+  height: 75vw;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
-
-.gallery-container h1 {
-  text-align: center;
-  margin-top: 50px;
-  font-family: "Droid Sans", sans-serif;
-  font-weight: bold;
-}
-
-.gallery-container p.page-description {
-  text-align: center;
-  margin: 25px auto;
-  font-size: 18px;
-  color: #999;
-}
-
-.tz-gallery {
-  padding: 40px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-  padding: 2px;
-}
-
-.tz-gallery .lightbox img {
-  width: 100%;
-  border-radius: 0;
-  position: relative;
-  transition: transform 0.3s ease;
-}
-
-.tz-gallery .lightbox:before {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -13px;
-  margin-left: -13px;
-  opacity: 0;
-  color: #fff;
-  font-size: 26px;
-  font-family: "Glyphicons Halflings";
-  content: "\e003";
-  pointer-events: none;
-  z-index: 9000;
-  transition: 0.4s;
-}
-
-.tz-gallery .lightbox:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background-color: rgba(46, 132, 206, 0.7);
-  content: "";
-  transition: 0.4s;
-}
-
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
-  opacity: 1;
-}
-
-.baguetteBox-button {
-  background-color: transparent !important;
-}
-
-@media (max-width: 768px) {
-  body {
-    padding: 0;
-  }
-}
-
-/* Responsive grid */
 @media (min-width: 576px) {
-  .col-sm-6 {
-    width: 50%;
+  #gallery img {
+    height: 35vw;
   }
 }
-
-@media (min-width: 768px) {
-  .col-md-4 {
-    width: 33.33%;
-  }
-
-  .col-md-8 {
-    width: 66.66%;
-  }
-}
-
 @media (min-width: 992px) {
-  .col-md-4 {
-    width: 33.33%;
+  #gallery img {
+    height: 18vw;
   }
+}
 
-  .col-md-8 {
-    width: 66.66%;
+.carousel-item img {
+  height: 60vw;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .carousel-item img {
+    height: 350px;
   }
+}
+
+#gallery.custom {
+  padding: 15px;
+}
+#gallery.custom img {
+  display: block;
+  margin: 15px 0;
+  border-radius: 300px 30px 300px 300px;
+}
+#gallery.custom img:hover {
+  border-radius: 30px 90px 30px 30px;
+}
+
+#exampleModal.custom .modal-content {
+  background: none;
+  border: none;
+}
+#exampleModal.custom .modal-header {
+  border: none;
+}
+#exampleModal.custom .modal-header button {
+  background: none;
+  border-radius: 100px 100px 0 0;
+  padding: 5px 10px;
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  border: solid 2px white;
+}
+@media (min-width: 992px) {
+  #exampleModal.custom .modal-header button {
+    top: 15px;
+  }
+}
+#exampleModal.custom .modal-header button:hover {
+  top: 3px;
+}
+#exampleModal.custom .modal-header span {
+  color: white;
+}
+#exampleModal.custom .modal-body {
+  padding: 0;
+  border: none;
+  position: relative;
+}
+#exampleModal.custom .modal-body::before,
+#exampleModal.custom .modal-body::after {
+  content: "";
+  height: 50px;
+  width: 50px;
+  display: block;
+  position: absolute;
+  background: white;
+  border-radius: 3px 10px;
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .modal-body::before,
+  #exampleModal.custom .modal-body::after {
+    border-radius: 3px 30px;
+    height: 100px;
+    width: 100px;
+  }
+}
+#exampleModal.custom .modal-body::before {
+  top: -5px;
+  left: -5px;
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .modal-body::before {
+    top: -15px;
+    left: -15px;
+  }
+}
+#exampleModal.custom .modal-body::after {
+  bottom: -5px;
+  right: -5px;
+  z-index: -1;
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .modal-body::after {
+    bottom: -15px;
+    right: -15px;
+  }
+}
+#exampleModal.custom .modal-footer {
+  border: none;
+  margin-top: 60px;
+}
+@media (min-width: 992px) {
+  #exampleModal.custom .modal-footer {
+    margin-top: 40px;
+  }
+}
+#exampleModal.custom .modal-footer .btn {
+  margin: auto;
+  border: solid 2px white;
+  background: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 0.2em 0.7em;
+}
+#exampleModal.custom .modal-footer .btn:hover {
+  background: white;
+  color: black;
+}
+#exampleModal.custom .carousel-control-prev,
+#exampleModal.custom .carousel-control-next {
+  font-size: 2em;
+  top: auto;
+  opacity: 1;
+  bottom: -52px;
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .carousel-control-prev,
+  #exampleModal.custom .carousel-control-next {
+    top: 0;
+    opacity: 0.5;
+    bottom: 0;
+  }
+}
+#exampleModal.custom .carousel-control-next-icon,
+#exampleModal.custom .carousel-control-prev-icon {
+  height: 30px;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .carousel-control-prev {
+    left: -90px;
+  }
+}
+@media (min-width: 768px) {
+  #exampleModal.custom .carousel-control-next {
+    right: -90px;
+  }
+}
+#exampleModal.custom .carousel-indicators {
+  bottom: -60px;
+}
+@media (min-width: 992px) {
+  #exampleModal.custom .carousel-indicators {
+    bottom: -30px;
+  }
+}
+#exampleModal.custom .carousel-indicators li {
+  height: 30px;
+  border-radius: 100px;
+  background: none;
+  border: solid 2px white;
+}
+@media (min-width: 992px) {
+  #exampleModal.custom .carousel-indicators li {
+    height: 10px;
+  }
+}
+#exampleModal.custom .carousel-indicators li:hover {
+  background: white;
+}
+#exampleModal.custom .carousel-indicators li.active {
+  background: white;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+@media (min-width: 576px) {
+  .switch {
+    margin: 0;
+  }
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }

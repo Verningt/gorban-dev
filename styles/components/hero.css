@@ -13,7 +13,7 @@
 
 .hero__text1 {
   font-size: var(--size-3xl);
-  color: var(--clr-red800);
+  color: var(--clr-stone700);
   font-weight: 900;
   /* line-height: 1; */
 }
