@@ -61,8 +61,8 @@
 
 .slider__container {
   /* margin-top: 5.6rem; */
-  /* padding-top: 6.5rem; */
-  padding-top: 6rem;
+  padding-top: 1.5rem;
+  /* padding-top: 5rem; */
   /* padding-bottom: 2rem; */
-  /* background-color: var(--clr-stone-dark); */
+  background-color: var(--clr-stone-dark);
 }
