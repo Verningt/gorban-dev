@@ -7,6 +7,8 @@
   align-items: center;
   text-align: left;
   gap: 2rem;
+  /* background-color: var(--clr-stone-light); */
+  /* border-radius: 1rem; */
 }
 
 .about__img {
@@ -37,22 +39,24 @@
 }
 
 .card__text1 {
-  font-size: var(--size-xl);
+  font-size: var(--size-2xl);
   color: var(--clr-peach);
+  font-weight: 900;
 }
 
 .card__text2 {
   padding-top: 0.5rem;
-  font-size: var(--size-);
+  font-size: var(--size-lg);
   color: var(--clr-stone600);
+  font-weight: 600;
 }
 
 .about__title {
   width: 100%;
   align-self: flex-start;
-  color: var(--clr-stone600);
+  color: var(--clr-stone800);
   font-size: var(--size-5xl);
-  font-weight: 400;
+  font-weight: 600;
   padding-bottom: 2rem;
   /* border-bottom: 3px solid var(--clr-stone600); */
 }
