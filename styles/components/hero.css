@@ -12,17 +12,17 @@
 }
 
 .hero__text1 {
-  font-size: var(--size-3xl);
-  color: var(--clr-stone800);
+  font-size: var(--size-5xl);
+  color: var(--clr-peach);
   font-weight: 900;
 }
 
 .hero__text2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-size: var(--size-lg);
+  font-size: var(--size-base);
   color: var(--clr-stone600);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .hero__btn1 {

@@ -63,8 +63,8 @@ span {
 }
 
 .icon {
-  width: var(--size-4xl);
-  height: var(--size-4xl);
+  width: var(--size-3xl);
+  height: var(--size-3xl);
   color: var(--clr-peach);
 }
 
