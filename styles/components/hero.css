@@ -32,7 +32,6 @@
 
 a.hero__btn2 {
   margin-top: 1rem;
-
   margin-top: 1rem;
   background-color: #d6d3d1;
   color: var(--clr-stone600);
@@ -42,9 +41,8 @@ a.hero__btn2 {
 .hero__logo {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  mask-image: linear-gradient(to right, transparent, #000 50% 50%, transparent);
-  background-color: var(--clr-stone400);
-  z-index: -1;
+  /* mask-image: linear-gradient(to right, transparent, #000 50% 50%, transparent); */
+  background-color: var(--clr-stone800);
 }
 
 .hero__logo img {
