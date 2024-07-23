@@ -216,10 +216,10 @@
 .row {
   padding-top: 3rem;
   padding-bottom: 5rem;
-
-  background-color: var(--clr-stone-dark);
+  background-color: var(--clr-stone-light);
   gap: 1rem;
   border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
 }
 
 .w-100 {
@@ -227,15 +227,18 @@
 }
 
 .gallery__text1 {
-  color: var(--clr-stone400);
+  color: var(--clr-red800);
   font-size: var(--size-4xl);
   font-weight: 800;
   text-align: center;
   padding-bottom: 2rem;
+  align-self: flex-start;
 }
 
 .modal-content {
   border: none;
+  border-radius: 1rem;
+  /* background-color: var(--clr-stone-light); */
 }
 
 .modal-header {
