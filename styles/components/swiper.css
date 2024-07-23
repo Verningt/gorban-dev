@@ -238,7 +238,7 @@
 .modal-content {
   border: none;
   border-radius: 1rem;
-  /* background-color: var(--clr-stone-light); */
+  background-color: var(--clr-stone-light);
 }
 
 .modal-header {
@@ -250,5 +250,9 @@
 }
 
 .modal-body {
-  /* padding: 0; */
+  padding: 0;
+}
+
+.btn-secondary {
+  border: none;
 }
