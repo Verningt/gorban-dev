@@ -1,5 +1,5 @@
 #gallery img {
-  height: 75vw;
+  height: 60vw;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -15,7 +15,7 @@
 }
 
 .carousel-item img {
-  height: 60vw;
+  /* height: 70vw; */
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -220,5 +220,5 @@
 }
 
 .w-100 {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
