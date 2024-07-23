@@ -7,7 +7,7 @@
 }
 
 .hero__text {
-  text-align: left;
+  text-align: ce;
   width: 100%;
 }
 
@@ -22,7 +22,7 @@
   padding-bottom: 1rem;
   font-size: var(--size-base);
   color: var(--clr-stone600);
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .hero__btn1 {
