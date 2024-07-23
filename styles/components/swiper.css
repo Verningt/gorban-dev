@@ -211,3 +211,14 @@
   top: 25%;
   --bs-modal-padding: 0;
 }
+
+.row {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* background-color: #000; */
+  gap: 1rem;
+}
+
+.w-100 {
+  border-radius: 1rem;
+}
