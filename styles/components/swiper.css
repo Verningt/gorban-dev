@@ -213,13 +213,20 @@
 }
 
 .row {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background-color: #000;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--clr-stone-dark);
   gap: 1rem;
   border-radius: 0.5rem;
 }
 
 .w-100 {
   border-radius: 0.5rem;
+}
+
+.gallery__text1 {
+  color: var(--clr-red600);
+  font-size: var(--size-4xl);
+  font-weight: 800;
+  text-align: center;
 }
