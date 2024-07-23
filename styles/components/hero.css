@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 8rem;
+  padding-top: 1rem;
   padding-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
 
 .hero__text1 {
   font-size: var(--size-5xl);
-  color: var(--clr-red800);
+  color: var(--clr-stone600);
   font-weight: 900;
   line-height: 1;
 }
@@ -41,14 +41,14 @@ a.hero__btn2 {
 }
 
 .hero__logo {
-  /* margin-top: 7rem; */
-  /* padding-top: 6rem; */
-  padding-bottom: 2rem;
+  margin-top: 6rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   /* mask-image: linear-gradient(to right, transparent, #000 50% 50%, transparent); */
-  /* background-color: var(--clr-stone-dark); */
+  background-color: var(--clr-stone800);
 }
 
 .hero__logo img {
   margin: 0 auto;
-  width: 250px;
+  width: 200px;
 }
