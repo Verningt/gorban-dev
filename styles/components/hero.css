@@ -1,5 +1,5 @@
 .hero {
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: 7rem;
   display: flex;
   flex-direction: column;
@@ -7,13 +7,13 @@
 }
 
 .hero__text {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 .hero__text1 {
   font-size: var(--size-5xl);
-  color: var(--clr-stone600);
+  color: #8f0014;
   font-weight: 900;
   line-height: 1;
 }
