@@ -56,7 +56,7 @@
 }
 
 .about__text1 {
-  color: var(--clr-peach);
+  color: var(--clr-red800);
   font-size: var(--size-4xl);
   font-weight: 600;
 }

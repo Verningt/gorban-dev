@@ -13,7 +13,7 @@
 
 .hero__text1 {
   font-size: var(--size-5xl);
-  color: #8f0014;
+  color: var(--clr-red800);
   font-weight: 900;
   line-height: 1;
 }
@@ -35,7 +35,7 @@ a.hero__btn2 {
   margin-top: 1rem;
   margin-top: 1rem;
   background-color: #d6d3d1;
-  color: var(--clr-stone600);
+  color: var(--clr-stone800);
   width: 100%;
   border-bottom: 3px double var(--clr-stone200);
 }
