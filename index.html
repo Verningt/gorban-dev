@@ -11,6 +11,18 @@
       href="//fonts.googleapis.com/css?family=Orbitron"
     />
 
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"
+    />
     <title>Gorban Transportation</title>
   </head>
   <body>
@@ -255,76 +267,89 @@
     <!-- about ends -->
 
     <!-- contact starts -->
-    <section class="gallery container">
-      <div>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/104842/bmw-vehicle-ride-bike-104842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="motorbike 1"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="motorbike 2"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/4542987/pexels-photo-4542987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="notorbike 3"
-          />
-        </article>
-      </div>
-      <div>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/954929/pexels-photo-954929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="mountains 1"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/950859/pexels-photo-950859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="hand"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/1741570/pexels-photo-1741570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="beach"
-          />
-        </article>
-      </div>
-      <div>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="man on rock"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/1006121/pexels-photo-1006121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="trees"
-          />
-        </article>
-        <article>
-          <img
-            src="https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="sky"
-          />
-        </article>
-      </div>
-    </section>
-
     <!-- contact ends -->
+
+    <div class="container gallery-container">
+      <div class="tz-gallery">
+        <div class="col-sm-12 col-md-4">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg"
+              alt="Bridge"
+            />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg"
+              alt="Park"
+            />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg"
+              alt="Tunnel"
+            />
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg"
+              alt="Traffic"
+            />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg"
+              alt="Rails"
+            />
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <a
+            class="lightbox"
+            href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg"
+          >
+            <img
+              src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg"
+              alt="Coast"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".tz-gallery");
+    </script>
 
     <!-- footer starts -->
     <footer></footer>
     <!-- footer ends -->
 
-    <script type="module" src="./src/app.js"></script>
+    <script src="./src/app.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
