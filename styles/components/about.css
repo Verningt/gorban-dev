@@ -48,9 +48,11 @@
 }
 
 .about__title {
+  width: 100%;
   align-self: flex-start;
-  color: var(--clr-stone700);
-  font-size: var(--size-4xl);
-  padding-bottom: 1rem;
-  font-weight: 900;
+  color: var(--clr-stone600);
+  font-size: var(--size-5xl);
+  font-weight: 400;
+  padding-bottom: 2rem;
+  /* border-bottom: 3px solid var(--clr-stone600); */
 }

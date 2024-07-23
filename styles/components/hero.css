@@ -7,7 +7,7 @@
 }
 
 .hero__text {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
@@ -36,6 +36,7 @@ a.hero__btn2 {
   background-color: #d6d3d1;
   color: var(--clr-stone600);
   width: 100%;
+  border-bottom: 3px double var(--clr-stone200);
 }
 
 .hero__logo {
