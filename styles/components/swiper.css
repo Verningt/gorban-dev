@@ -215,8 +215,9 @@
 .row {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  /* background-color: #000; */
+  background-color: #000;
   gap: 1rem;
+  border-radius: 0.5rem;
 }
 
 .w-100 {
