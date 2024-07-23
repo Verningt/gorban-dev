@@ -15,7 +15,7 @@
   font-size: var(--size-3xl);
   color: var(--clr-red800);
   font-weight: 900;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 .hero__text2 {
