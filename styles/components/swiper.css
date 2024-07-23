@@ -206,3 +206,8 @@
   width: 0;
   height: 0;
 }
+
+.modal {
+  top: 25%;
+  --bs-modal-padding: 0;
+}
