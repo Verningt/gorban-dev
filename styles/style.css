@@ -17,7 +17,7 @@
 
   /* --clr-peach: #574240; */
   /* --clr-peach: #7c5056; */
-  --clr-peach: #8f0014;
+  /* --clr-peach: #8f0014; */
   /* --clr-peach: #ba2431; */
 
   --clr-sky-dark: #172554;
@@ -54,7 +54,7 @@ html {
 
 body {
   /* font-family: "Maven Pro", sans-serif; */
-  background-color: white
+  background-color: white;
   color: var(--clr-stone-dark);
 }
 
