@@ -63,9 +63,9 @@ span {
 }
 
 .icon {
-  width: var(--size-5xl);
-  height: var(--size-5xl);
-  color: #f87171;
+  width: var(--size-4xl);
+  height: var(--size-4xl);
+  color: var(--clr-peach);
 }
 
 /* xxs */

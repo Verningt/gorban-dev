@@ -1,6 +1,6 @@
 .hero {
   padding-top: 1rem;
-  padding-bottom: 20rem;
+  padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,14 +28,14 @@
 
 .hero__btn1 {
   margin-top: 2rem;
-  width: 100%;
+  width: 150px;
 }
 
 a.hero__btn2 {
   margin-top: 1rem;
   background-color: #d6d3d1;
   color: var(--clr-stone800);
-  width: 100%;
+  width: 150px;
   border-bottom: 3px double var(--clr-stone200);
 }
 
@@ -44,7 +44,7 @@ a.hero__btn2 {
   padding-top: 2rem;
   padding-bottom: 2rem;
   /* mask-image: linear-gradient(to right, transparent, #000 50% 50%, transparent); */
-  background-color: var(--clr-stone-dark);
+  /* background-color: var(--clr-stone-dark); */
 }
 
 .hero__logo img {

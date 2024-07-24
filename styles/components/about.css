@@ -3,12 +3,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10rem;
+  gap: 5rem;
 }
 
 .about__card {
-  /* width: fit-content; */
-  width: 100%;
+  width: fit-content;
+  /* width: 100%; */
+  width: 350px;
   height: fit-content;
   /* gap: 6rem; */
   background-color: var(--clr-stone-light);
@@ -22,8 +23,8 @@
 
 .about__img {
   border-radius: 1rem;
-  width: 700px;
-  /* height: auto; */
+  /* width: 500px; */
+  height: auto;
 }
 
 .about__info {
@@ -39,10 +40,10 @@
 .about__text1 {
   padding-top: 0.5rem;
   font-size: var(--size-2xl);
-  color: var(--clr-stone700);
-  font-weight: 1000;
-  font-style: italic;
-  text-transform: uppercase;
+  color: var(--clr-peach);
+  font-weight: 800;
+  /* font-style: italic; */
+  /* text-transform: uppercase; */
 }
 
 .about__text2 {
