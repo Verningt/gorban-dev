@@ -208,13 +208,10 @@
   height: 0;
 }
 
-.modal {
-}
-
 .row {
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  background-color: var(--clr-stone-light);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--clr-stone-dark);
   gap: 1rem;
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
@@ -226,10 +223,8 @@
 
 .gallery__text1 {
   color: var(--clr-stone400);
-  font-size: var(--size-5xl);
+  font-size: var(--size-7xl);
   font-weight: 1000;
-  text-transform: uppercase;
-  line-height: 0.75;
 }
 
 .modal-content {

@@ -7,19 +7,19 @@
 }
 
 .hero__text {
-  text-align: left;
+  text-align: center;
   width: 100%;
 }
 
 .hero__text1 {
   font-size: var(--size-3xl);
-  color: var(--clr-stone800);
+  color: var(--clr-red800);
   font-weight: 1000;
   /* line-height: 1; */
 }
 
 .hero__text2 {
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   /* padding-bottom: 1rem; */
   font-size: var(--size-base);
   color: var(--clr-stone600);
@@ -27,12 +27,11 @@
 }
 
 .hero__btn1 {
-  margin-top: 0.5rem;
+  margin-top: 2rem;
   width: 100%;
 }
 
 a.hero__btn2 {
-  margin-top: 1rem;
   margin-top: 1rem;
   background-color: #d6d3d1;
   color: var(--clr-stone800);
