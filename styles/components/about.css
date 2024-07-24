@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
 }
 
 .card__text {
@@ -42,7 +42,7 @@
 
 .card__text1 {
   font-size: var(--size-xl);
-  color: var(--clr-peach);
+  color: var(--clr-red600);
   font-weight: 800;
   /* text-transform: uppercase; */
 }
@@ -59,7 +59,7 @@
 }
 
 .about__text1 {
-  color: var(--clr-stone400);
+  color: #7c5056;
   font-size: var(--size-7xl);
   font-weight: 1000;
   /* text-transform: uppercase; */

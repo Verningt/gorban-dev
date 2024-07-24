@@ -211,10 +211,10 @@
 .row {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: var(--clr-stone-dark);
+  background-color: var(--clr-stone-light);
   gap: 1rem;
   border-radius: 1rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 20px -20px;
 }
 
 .w-100 {
@@ -222,7 +222,7 @@
 }
 
 .gallery__text1 {
-  color: var(--clr-stone400);
+  color: #7c5056;
   font-size: var(--size-7xl);
   font-weight: 1000;
 }

@@ -76,6 +76,11 @@ button {
   cursor: pointer;
 }
 
-p {
+p,
+ul {
   margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
 }
