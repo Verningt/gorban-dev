@@ -222,7 +222,7 @@
 }
 
 .gallery__text1 {
-  color: #7c5056;
+  color: var(--clr-stone400);
   font-size: var(--size-7xl);
   font-weight: 1000;
 }
