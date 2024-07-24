@@ -4,6 +4,26 @@
   font-weight: 1000;
 }
 
-.row {
-  margin: 15px;
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.custom-thumbnail {
+  max-width: 200px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.img-fluid {
+  border-radius: 1rem;
 }

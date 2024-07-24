@@ -70,35 +70,35 @@ span {
 
 /* xxs */
 @media (min-width: 375px) {
-  .container {
+  .main-wrapper {
     max-width: 375px;
   }
 }
 
 /* xs */
 @media (min-width: 475px) {
-  .container {
+  .main-wrapper {
     max-width: 475px;
   }
 }
 
 /* sm */
 @media (min-width: 640px) {
-  .container {
+  .main-wrapper {
     max-width: 640px;
   }
 }
 
 /* md */
 @media (min-width: 768px) {
-  .container {
+  .main-wrapper {
     max-width: 768px;
   }
 }
 
 /* lg */
 @media (min-width: 1024px) {
-  .container {
+  .main-wrapper {
     max-width: 1024px;
   }
 
@@ -109,7 +109,7 @@ span {
 
 /* xl */
 @media (min-width: 1280px) {
-  .container {
+  .main-wrapper {
     max-width: 1280px;
   }
 }
