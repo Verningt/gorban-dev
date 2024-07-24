@@ -41,7 +41,7 @@
 }
 
 .card__text1 {
-  font-size: var(--size-xl);
+  font-size: var(--size-2xl);
   color: var(--clr-red600);
   font-weight: 800;
   /* text-transform: uppercase; */
@@ -49,7 +49,7 @@
 
 .card__text2 {
   padding-top: 0.5rem;
-  font-size: var(--size-base);
+  font-size: var(--size-lg);
   color: var(--clr-stone-dark);
   font-weight: 400;
 }
