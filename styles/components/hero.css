@@ -12,9 +12,10 @@
 }
 
 .hero__text1 {
-  font-size: var(--size-3xl);
-  color: var(--clr-stone700);
+  font-size: var(--size-4xl);
+  color: var(--clr-peach);
   font-weight: 900;
+
   /* line-height: 1; */
 }
 
