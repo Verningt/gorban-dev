@@ -19,6 +19,7 @@
 .header__menu {
   display: none;
   position: relative;
+  text-transform: uppercase;
 }
 
 .header__left {
