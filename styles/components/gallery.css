@@ -17,7 +17,7 @@
 .custom-thumbnail {
   max-width: 200px;
   object-fit: cover;
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
 
 .modal-body {
@@ -25,5 +25,5 @@
 }
 
 .img-fluid {
-  border-radius: 1rem;
+  /* border-radius: 1rem; */
 }
