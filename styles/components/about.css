@@ -45,7 +45,7 @@
 }
 
 .card__text1 {
-  max-width: 80%;
+  /* max-width: 80%; */
   padding-top: 0.5rem;
   font-size: var(--size-2xl);
   color: var(--clr-red600);
