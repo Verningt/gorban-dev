@@ -8,7 +8,7 @@
 
 .about__card {
   /* width: fit-content; */
-  /* width: 100%; */
+  width: 100%;
   height: fit-content;
   /* gap: 6rem; */
   background-color: var(--clr-stone-light);
@@ -39,7 +39,7 @@
 .about__text1 {
   padding-top: 0.5rem;
   font-size: var(--size-2xl);
-  color: var(--clr-red600);
+  color: var(--clr-red800);
   font-weight: 1000;
   font-style: italic;
   text-transform: uppercase;
