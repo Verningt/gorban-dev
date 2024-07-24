@@ -1,5 +1,5 @@
 .about {
-  padding-top: 10rem;
+  /* padding-top: 10rem; */
   padding-bottom: 6rem;
   display: flex;
   flex-direction: column;
@@ -39,16 +39,17 @@
 }
 
 .card__text1 {
-  font-size: var(--size-xl);
-  color: var(--clr-red800);
-  font-weight: 900;
+  font-size: var(--size-2xl);
+  color: var(--clr-peach);
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .card__text2 {
   padding-top: 0.5rem;
-  font-size: var(--size-base);
-  color: var(--clr-stone600);
-  font-weight: 400;
+  font-size: var(--size-lg);
+  color: var(--clr-stone-dark);
+  font-weight: 500;
 }
 
 .about__title {
@@ -56,9 +57,11 @@
 }
 
 .about__text1 {
-  color: var(--clr-red800);
-  font-size: var(--size-4xl);
-  font-weight: 800;
+  color: var(--clr-stone400);
+  font-size: var(--size-5xl);
+  font-weight: 1000;
+  text-transform: uppercase;
+  line-height: 0.75;
 }
 
 .about__text2 {

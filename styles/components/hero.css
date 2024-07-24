@@ -1,6 +1,6 @@
 .hero {
   padding-top: 1rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,16 +12,15 @@
 }
 
 .hero__text1 {
-  font-size: var(--size-4xl);
-  color: var(--clr-peach);
-  font-weight: 900;
-
+  font-size: var(--size-3xl);
+  color: var(--clr-stone800);
+  font-weight: 1000;
   /* line-height: 1; */
 }
 
 .hero__text2 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+  /* padding-bottom: 1rem; */
   font-size: var(--size-base);
   color: var(--clr-stone600);
   font-weight: 400;

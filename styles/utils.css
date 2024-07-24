@@ -47,8 +47,8 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
 }
 
 .section {
@@ -63,8 +63,8 @@ span {
 }
 
 .icon {
-  width: var(--size-3xl);
-  height: var(--size-3xl);
+  width: var(--size-5xl);
+  height: var(--size-5xl);
   color: var(--clr-peach);
 }
 

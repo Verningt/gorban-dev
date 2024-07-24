@@ -225,12 +225,11 @@
 }
 
 .gallery__text1 {
-  color: var(--clr-red800);
-  font-size: var(--size-4xl);
-  font-weight: 800;
-  text-align: center;
-  padding-bottom: 2rem;
-  align-self: flex-start;
+  color: var(--clr-stone400);
+  font-size: var(--size-5xl);
+  font-weight: 1000;
+  text-transform: uppercase;
+  line-height: 0.75;
 }
 
 .modal-content {
