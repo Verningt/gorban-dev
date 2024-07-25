@@ -1,14 +1,16 @@
 .hero {
+  /* padding-top: 5rem; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 3rem;
   align-items: center;
+  padding-bottom: 15rem;
 }
 
 .hero__text {
   /* width: 100%; */
-  text-align: left;
+  text-align: center;
 }
 
 .hero__text1 {
@@ -48,7 +50,7 @@
   /* align-self: center; */
   /* margin-top: 2rem; */
   /* width: 100%; */
-  width: 250px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -79,6 +81,7 @@
   height: var(--size-xl);
 }
 
-/* .hero__container-slider {
-  background-color: var(--clr-stone-dark);
-} */
+.hero__container-slider {
+  /* background-color: var(--clr-stone-dark); */
+  padding-top: 3rem;
+}
