@@ -23,12 +23,18 @@ function copyToClipboard(text) {
         console.error("Не удалось скопировать текст: ", err);
       });
   } else {
-    var tempInput = document.createElement("input");
+    var tempInput = document.createElement("textarea");
     tempInput.value = text;
+    tempInput.style.position = "fixed"; // Avoid scrolling to bottom of page in MS Edge.
     document.body.appendChild(tempInput);
+    tempInput.focus();
     tempInput.select();
-    document.execCommand("copy");
+    try {
+      document.execCommand("copy");
+      alert("Скопировано: " + text);
+    } catch (err) {
+      console.error("Не удалось скопировать текст: ", err);
+    }
     document.body.removeChild(tempInput);
-    alert("Скопировано: " + text);
   }
 }
