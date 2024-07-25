@@ -3,11 +3,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 10rem;
 }
 
 .about__card {
-  /* padding-bottom: 2rem; */
+  padding-bottom: 5rem;
   /* height: 500px; */
   overflow: hidden;
   width: fit-content;
@@ -18,7 +18,7 @@
   justify-content: center;
   flex-wrap: wrap;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -20px;
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 /* .about__card.main {
@@ -53,7 +53,7 @@
 }
 
 .about__text1 {
-  /* padding-top: 1rem; */
+  padding-top: 0.5rem;
   font-size: var(--size-2xl);
   color: var(--clr-stone800);
   font-weight: 800;

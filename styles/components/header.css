@@ -51,7 +51,7 @@
 }
 
 .header__text1 {
-  color: var(--clr-red800);
+  color: var(--clr-stone-light);
   font-size: var(--size-2xl);
   line-height: 1;
 }
