@@ -23,7 +23,6 @@
 } */
 
 .btn {
-  display: inline-block;
   padding: 1em 2em;
   border-radius: 5rem;
   color: var(--clr-peach);
@@ -54,11 +53,11 @@
 .main-wrapper {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 
 .section {
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
   background-color: var(--clr-stone-light);
   border-radius: 1rem;
 }
@@ -69,8 +68,8 @@ span {
 }
 
 .icon {
-  width: var(--size-5xl);
-  height: var(--size-5xl);
+  width: var(--size-6xl);
+  height: var(--size-6xl);
   color: var(--clr-peach);
 }
 

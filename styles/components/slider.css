@@ -1,8 +1,13 @@
+.slider__container {
+  mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
+  padding-top: 5rem;
+  padding-bottom: 1.4rem;
+}
+
 .slider {
   width: 100%;
   height: var(--height);
   overflow: hidden;
-
   z-index: -1;
   /* margin-top: 1rem; */
 }
@@ -58,10 +63,4 @@
   to {
     left: 100%;
   }
-}
-
-.slider__container {
-  margin-bottom: 10rem;
-  /* background-color: var(--clr-stone-dark); */
-  /* mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent); */
 }

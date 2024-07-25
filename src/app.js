@@ -13,13 +13,17 @@ function copyToClipboard(text) {
   tempInput.select();
   tempInput.setSelectionRange(0, 99999); // For mobile devices
 
+  console.log("Before execCommand");
   try {
     var successful = document.execCommand("copy");
+    console.log("After execCommand");
     var msg = successful ? "успешно" : "неуспешно";
     alert("Скопировано: " + text + " (" + msg + ")");
   } catch (err) {
     console.error("Не удалось скопировать текст: ", err);
+    alert("Ошибка копирования: " + err);
   }
 
   document.body.removeChild(tempInput);
+  console.log("Temporary input removed");
 }
