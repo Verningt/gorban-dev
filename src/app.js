@@ -1,40 +1,52 @@
 document
   .getElementById("copyEmail")
-  .addEventListener("click", function (event) {
+  .addEventListener("click", async function (event) {
     event.preventDefault();
-    copyToClipboard("gortrans@live.com");
+    await copyToClipboard("gortrans@live.com");
   });
 
 document
   .getElementById("copyPhone")
-  .addEventListener("click", function (event) {
+  .addEventListener("click", async function (event) {
     event.preventDefault();
-    copyToClipboard("+(314)-504-7886");
+    await copyToClipboard("+(314)-504-7886");
   });
 
-function copyToClipboard(text) {
+async function copyToClipboard(text) {
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard
-      .writeText(text)
-      .then(function () {
-        alert("Скопировано: " + text);
-      })
-      .catch(function (err) {
-        console.error("Не удалось скопировать текст: ", err);
-      });
-  } else {
-    var tempInput = document.createElement("textarea");
-    tempInput.value = text;
-    tempInput.style.position = "fixed"; // Avoid scrolling to bottom of page in MS Edge.
-    document.body.appendChild(tempInput);
-    tempInput.focus();
-    tempInput.select();
     try {
-      document.execCommand("copy");
+      await navigator.clipboard.writeText(text);
       alert("Скопировано: " + text);
     } catch (err) {
       console.error("Не удалось скопировать текст: ", err);
+      fallbackCopyTextToClipboard(text);
     }
-    document.body.removeChild(tempInput);
+  } else {
+    fallbackCopyTextToClipboard(text);
   }
+}
+
+function fallbackCopyTextToClipboard(text) {
+  var tempInput = document.createElement("textarea");
+  tempInput.value = text;
+  tempInput.style.position = "fixed"; // Avoid scrolling to bottom of page in MS Edge.
+  tempInput.style.top = "0";
+  tempInput.style.left = "0";
+  tempInput.style.width = "1px";
+  tempInput.style.height = "1px";
+  tempInput.style.padding = "0";
+  tempInput.style.border = "none";
+  tempInput.style.outline = "none";
+  tempInput.style.boxShadow = "none";
+  tempInput.style.background = "transparent";
+  document.body.appendChild(tempInput);
+  tempInput.focus();
+  tempInput.select();
+  try {
+    document.execCommand("copy");
+    alert("Скопировано: " + text);
+  } catch (err) {
+    console.error("Не удалось скопировать текст: ", err);
+  }
+  document.body.removeChild(tempInput);
 }
