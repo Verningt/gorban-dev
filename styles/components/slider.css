@@ -28,7 +28,13 @@
   animation-delay: calc(
     (500s / var(--quantity)) * (var(--position) - var(--quantity))
   ) !important;
-  /* filter: grayscale(1); */
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+.slider .slider__list .slider__item:hover {
+  filter: grayscale(0);
+  transform: scale(1.01);
 }
 
 .slider .slider__list .slider__item img {
