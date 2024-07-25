@@ -1,14 +1,12 @@
 document
   .getElementById("copyEmail")
   .addEventListener("click", async function (event) {
-    event.preventDefault();
     await copyToClipboard("gortrans@live.com");
   });
 
 document
   .getElementById("copyPhone")
   .addEventListener("click", async function (event) {
-    event.preventDefault();
     await copyToClipboard("+(314)-504-7886");
   });
 
