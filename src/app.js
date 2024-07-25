@@ -1,12 +1,26 @@
 document
   .getElementById("copyEmail")
   .addEventListener("click", async function (event) {
+    event.preventDefault();
+    await copyToClipboard("gortrans@live.com");
+  });
+document
+  .getElementById("copyEmail")
+  .addEventListener("touchend", async function (event) {
+    event.preventDefault();
     await copyToClipboard("gortrans@live.com");
   });
 
 document
   .getElementById("copyPhone")
   .addEventListener("click", async function (event) {
+    event.preventDefault();
+    await copyToClipboard("+(314)-504-7886");
+  });
+document
+  .getElementById("copyPhone")
+  .addEventListener("touchend", async function (event) {
+    event.preventDefault();
     await copyToClipboard("+(314)-504-7886");
   });
 
@@ -41,8 +55,9 @@ function fallbackCopyTextToClipboard(text) {
   tempInput.focus();
   tempInput.select();
   try {
-    document.execCommand("copy");
-    alert("Скопировано: " + text);
+    var successful = document.execCommand("copy");
+    var msg = successful ? "успешно" : "неуспешно";
+    alert("Скопировано: " + text + " (" + msg + ")");
   } catch (err) {
     console.error("Не удалось скопировать текст: ", err);
   }
