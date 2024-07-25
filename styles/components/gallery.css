@@ -14,11 +14,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 2rem;
   /* padding: 1rem; */
 }
 
 .custom-thumbnail {
-  max-width: 190px;
+  max-width: 100px;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -31,7 +32,7 @@
 }
 
 .modal-body {
-  /* padding: 0; */
+  padding: 0;
 }
 
 .img-fluid {

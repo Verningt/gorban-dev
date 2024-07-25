@@ -17,7 +17,12 @@
   padding-right: 2rem;
   border-radius: 5rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 50px;
-  z-index: 1;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header.hidden {
+  transform: translateY(-150%) translateX(-50%);
 }
 
 .header__menu {
