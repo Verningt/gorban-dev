@@ -71,6 +71,7 @@
 }
 
 .section__title {
+  padding-top: 10rem;
   font-family: "Orbitron", sans-serif;
   color: var(--clr-stone400);
   font-size: var(--size-7xl);

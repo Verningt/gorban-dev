@@ -51,7 +51,7 @@
 }
 
 .header__text1 {
-  color: var(--clr-stone-light);
+  color: var(--clr-red800);
   font-size: var(--size-2xl);
   line-height: 1;
 }
@@ -109,13 +109,14 @@
     font-size: var(--size-s);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-stone600);
+    color: var(--clr-stone-light);
     transition: 0.3s;
     position: relative;
+    text-transform: uppercase;
   }
 
   .header__link:hover {
-    color: var(--clr-red600);
+    color: var(--clr-peach);
   }
 
   /* .header__link::after {

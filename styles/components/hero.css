@@ -5,7 +5,7 @@
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  padding-bottom: 15rem;
+  padding-bottom: 10rem;
 }
 
 .hero__text {
@@ -40,7 +40,7 @@
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin-top: 2rem;
 }
@@ -49,11 +49,9 @@
 .hero__btn2 {
   /* align-self: center; */
   /* margin-top: 2rem; */
-  /* width: 100%; */
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   gap: 1rem;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -65,15 +63,15 @@
 
 .hero__logo {
   /* margin-top: 6rem; */
-  /* padding-top: 5rem; */
-
+  /* padding-top: 2rem; */
+  /* padding-bottom: 2rem; */
   /* mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent); */
-  /* background-color: var(--clr-stone-dark); */
+  background-color: var(--clr-stone-dark);
 }
 
 .hero__logo img {
   margin: 0 auto;
-  width: 350px;
+  width: 300px;
 }
 
 .hero__icon {
@@ -84,4 +82,71 @@
 .hero__container-slider {
   /* background-color: var(--clr-stone-dark); */
   padding-top: 3rem;
+}
+
+/* xs */
+@media (min-width: 400px) {
+  .hero__btn1,
+  .hero__btn2 {
+    width: 100%;
+  }
+}
+/* sm */
+@media (min-width: 640px) {
+  @media (min-width: 475px) {
+    .hero__btn1,
+    .hero__btn2 {
+      width: 250px;
+    }
+  }
+}
+
+/* md */
+/* @media (min-width: 768px) {
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .hero__text1 {
+    font-size: var(--size-8xl);
+
+    line-height: 0.7;
+  }
+
+  .hero__text2 {
+    font-size: 2.7rem;
+  }
+
+  .hero__text3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: var(--size-xl);
+    font-weight: 400;
+    letter-spacing: 0.75px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .hero__text1 {
+    font-size: var(--size-9xl);
+
+    line-height: 0.7;
+  }
+
+  .hero__text2 {
+    font-size: 3.63rem;
+  }
+
+  .hero__text3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: var(--size-2xl);
+    font-weight: 400;
+    letter-spacing: 0.75px;
+  }
 }
