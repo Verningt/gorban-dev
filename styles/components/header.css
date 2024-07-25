@@ -4,7 +4,10 @@
   left: 50%;
   transform: translateX(-50%);
   top: 1rem;
-  background-color: var(--clr-stone-light);
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +51,7 @@
 }
 
 .header__text1 {
-  color: var(--clr-peach);
+  color: var(--clr-red800);
   font-size: var(--size-2xl);
   line-height: 1;
 }
@@ -56,11 +59,11 @@
 .header__text2 {
   font-size: 0.69rem;
   line-height: 0.5;
-  color: var(--clr-stone800);
+  color: var(--clr-stone-light);
 }
 
 .header__toggle {
-  color: var(--clr-stone600);
+  color: var(--clr-stone-light);
   width: var(--size-2xl);
   height: var(--size-2xl);
   display: block;
