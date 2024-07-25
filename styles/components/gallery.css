@@ -10,25 +10,26 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .custom-thumbnail {
-  max-width: 200px;
+  max-width: 190px;
   object-fit: cover;
-  /* border-radius: 1rem; */
+  border-radius: 1rem;
 }
 
 .modal-content {
+  height: auto;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid white;
+  border: none;
 }
 
 .modal-body {
-  padding: 0;
+  /* padding: 0; */
 }
 
 .img-fluid {
+  /* padding: 1rem; */
 }

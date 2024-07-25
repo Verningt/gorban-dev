@@ -1,30 +1,27 @@
 .about {
-  padding-bottom: 20rem;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .about__card {
-  width: fit-content;
-  /* width: 100%; */
-  width: 350px;
-  height: fit-content;
-  /* gap: 6rem; */
+  width: 500px;
   background-color: var(--clr-stone-light);
   border-radius: 1rem;
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 50px -20px;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 50px -20px; */
 }
 
 .about__img {
   border-radius: 1rem;
-  /* width: 500px; */
+  width: 500px;
   height: auto;
+  object-fit: cover;
 }
 
 .about__info {
@@ -33,13 +30,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  max-width: 400px;
   height: 300px;
 }
 
 .about__text1 {
   padding-top: 0.5rem;
-  font-size: var(--size-2xl);
+  font-size: var(--size-3xl);
   color: var(--clr-peach);
   font-weight: 800;
   /* font-style: italic; */
@@ -48,7 +45,7 @@
 
 .about__text2 {
   padding-top: 1rem;
-  font-size: var(--size-xl);
+  font-size: var(--size-2xl);
   color: var(--clr-stone-dark);
   font-weight: 400;
 }
