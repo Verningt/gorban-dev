@@ -90,14 +90,21 @@
   font-size: var(--size-xl);
 }
 
-.hero__logo {
-  /* padding-top: 6rem; */
-  /* padding-top: 2rem; */
-  /* padding-bottom: 2rem; */
-  /* mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent); */
+.hero__logo-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4rem;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+}
+
+.hero__logo {
+  display: inline-block; /* Ensure the image is displayed inline */
+
+  margin: 0 auto;
 }
 
 .hero__logo img {
