@@ -13,10 +13,8 @@
 .about__card {
   display: flex;
   flex-wrap: wrap;
-  /* padding-bottom: 5rem; */
-  /* height: 650px; */
   overflow: hidden;
-  width: 350px;
+  width: 375px;
   height: 80vh;
   background-color: #2f2f2f;
   border-radius: 0.75rem;
@@ -49,8 +47,6 @@
 
 .about__img {
   border-radius: 0 0 0 5rem;
-  /* height: 30vh; */
-  /* width: 400px; */
   object-fit: cover;
 }
 
