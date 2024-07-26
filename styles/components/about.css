@@ -32,7 +32,7 @@
   /* background-color: black; */
   color: white;
   --angle: 45deg;
-  background: linear-gradient(var(--angle), rgb(25, 25, 25), #323232);
+  background: linear-gradient(var(--angle), rgb(35, 35, 35), rgb(60, 60, 60));
 }
 
 /* .about__card.main {
@@ -85,10 +85,8 @@
 }
 
 .section__title {
-  padding-top: 10rem;
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
-
   color: var(--clr-stone400);
   font-size: var(--size-5xl);
   font-weight: 1000;

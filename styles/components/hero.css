@@ -16,26 +16,6 @@
   /* background-color: #121212; */
 }
 
-.hero__container::before {
-  content: "";
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.15) 1px,
-        transparent 1px 45px
-      )
-      50% 50% / 45px 45px,
-    linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px 45px) 50% 50% /
-      45px 45px;
-  mask: linear-gradient(-25deg, transparent 30%, white);
-  top: 0;
-  transform-style: flat;
-  pointer-events: none;
-  z-index: -1;
-}
-
 .hero__text {
   /* width: 100%; */
   text-align: center;
@@ -99,14 +79,13 @@
   right: 0;
   top: 0;
   width: 100%;
-  padding-top: 4rem;
-  background-color: black;
+  padding-top: 6rem;
+  background-color: #121212;
   text-align: center;
 }
 
 .hero__logo {
   display: inline-block; /* Ensure the image is displayed inline */
-
   margin: 0 auto;
 }
 
