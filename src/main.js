@@ -6,4 +6,5 @@ import "../styles/components/hero.css";
 import "../styles/components/about.css";
 import "../styles/components/gallery.css";
 // import "../styles/components/contact.css";
+import "../styles/components/onscroll.css";
 import "../styles/utils.css";

@@ -1,11 +1,37 @@
 .hero {
-  /* padding-top: 5rem; */
+  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  padding-bottom: 10rem;
+}
+
+.hero__container {
+  background-color: #e1e0dd;
+  /* background-color: #1e202b; */
+  /* background-color: #121212; */
+  /* background-color: #121212; */
+}
+
+.hero__container::before {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.15) 1px,
+        transparent 1px 45px
+      )
+      50% 50% / 45px 45px,
+    linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px 45px) 50% 50% /
+      45px 45px;
+  mask: linear-gradient(-25deg, transparent 30%, white);
+  top: 0;
+  transform-style: flat;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .hero__text {
@@ -50,6 +76,7 @@
   /* align-self: center; */
   /* margin-top: 2rem; */
   display: flex;
+
   gap: 1rem;
   justify-content: space-between;
   align-items: center;

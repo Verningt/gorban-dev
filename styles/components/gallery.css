@@ -4,7 +4,8 @@
   color: var(--clr-stone400);
   font-size: var(--size-7xl);
   font-weight: 1000;
-  text-align: left;
+  text-align: center;
+  text-transform: uppercase;
   margin: 0;
 }
 
