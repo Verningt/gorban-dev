@@ -1,7 +1,8 @@
 .slider__container {
   mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
-  padding-top: 5rem;
-  padding-bottom: 1.4rem;
+  overflow: hidden;
+  padding-top: 3rem;
+  /* padding-bottom: 1.4rem; */
 }
 
 .slider {
@@ -28,7 +29,7 @@
   animation-delay: calc(
     (500s / var(--quantity)) * (var(--position) - var(--quantity))
   ) !important;
-  /* filter: grayscale(1); */
+  filter: grayscale(1);
   transition: 0.5s;
 }
 

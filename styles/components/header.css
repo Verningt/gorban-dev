@@ -41,6 +41,10 @@
   gap: 0.5rem;
 }
 
+.header__text1:hover {
+  color: var(--clr-peach);
+}
+
 .header__logo {
   width: 60px;
 }
