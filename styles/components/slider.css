@@ -1,7 +1,8 @@
 .slider__container {
+  position: relative;
   mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
   overflow: hidden;
-  padding-top: 3rem;
+  /* padding-top: 3rem; */
   /* padding-bottom: 1.4rem; */
 }
 

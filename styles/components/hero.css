@@ -1,9 +1,10 @@
 .hero {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 3rem;
   align-items: center;
 }
@@ -73,7 +74,8 @@
 }
 
 .hero__btn1,
-.hero__btn2 {
+.hero__btn2,
+.hero__btn3 {
   /* align-self: center; */
   /* margin-top: 2rem; */
   display: flex;
@@ -84,7 +86,8 @@
 }
 
 .hero__btn1 p,
-.hero__btn2 p {
+.hero__btn2 p,
+.hero__btn3 p {
   width: fit-content;
   font-weight: 400;
   font-size: var(--size-xl);

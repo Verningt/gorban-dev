@@ -57,10 +57,10 @@
   /* margin-bottom: 10rem; */
 }
 
-.section {
-  /* margin-top: 5rem; */
+/* .section {
+  margin-top: 5rem;
   background-color: var(--clr-stone-light);
-}
+} */
 
 span {
   color: var(--clr-stone800);
@@ -107,9 +107,9 @@ span {
     max-width: 1024px;
   }
 
-  .section {
+  /* .section {
     margin-top: 10rem;
-  }
+  } */
 }
 
 /* xl */

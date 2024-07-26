@@ -1,14 +1,18 @@
 .about {
   /* width: 900px; */
+  height: 100%;
+  min-height: 100vh;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 5rem;
 }
 
 .about__card {
   padding-bottom: 5rem;
-  /* height: 500px; */
+  height: 650px;
   overflow: hidden;
   width: 350px;
   background-color: #2f2f2f;
@@ -16,6 +20,7 @@
   /* display: flex; */
   /* align-items: flex-start; */
   justify-content: center;
+
   flex-wrap: wrap;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -20px;
   border: 0.1px solid rgba(255, 255, 255, 0.5);
@@ -45,7 +50,7 @@
 } */
 
 .about__img {
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 0 5rem;
   width: 400px;
   object-fit: cover;
 }
