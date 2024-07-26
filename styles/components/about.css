@@ -1,27 +1,25 @@
 .about {
-  /* width: 900px; */
   height: 100%;
   min-height: 100vh;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .about__card {
-  padding-bottom: 5rem;
-  height: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding-bottom: 5rem; */
+  /* height: 650px; */
   overflow: hidden;
   width: 350px;
+  height: 80vh;
   background-color: #2f2f2f;
-  border-radius: 1rem;
-  /* display: flex; */
-  /* align-items: flex-start; */
-  justify-content: center;
-
-  flex-wrap: wrap;
+  border-radius: 0.75rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -20px;
   border: 0.1px solid rgba(255, 255, 255, 0.5);
   /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
@@ -51,7 +49,8 @@
 
 .about__img {
   border-radius: 0 0 0 5rem;
-  width: 400px;
+  /* height: 30vh; */
+  /* width: 400px; */
   object-fit: cover;
 }
 
