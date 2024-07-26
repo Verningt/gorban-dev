@@ -23,14 +23,15 @@
 } */
 
 .btn {
+  font-family: "Orbitron", sans-serif;
   padding: 1em 2em;
   border-radius: 5rem;
   color: var(--clr-peach);
   /* margin-top: 2rem; */
   font-weight: bold;
-  font-size: 0.678rem;
+  font-size: var(--size-base);
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
   background: linear-gradient(
     to right,
@@ -59,7 +60,6 @@
 .section {
   /* margin-top: 5rem; */
   background-color: var(--clr-stone-light);
-  border-radius: 1rem;
 }
 
 span {
@@ -70,7 +70,7 @@ span {
 .icon {
   width: var(--size-6xl);
   height: var(--size-6xl);
-  color: var(--clr-peach);
+  color: var(--clr-red600);
 }
 
 /* xxs */
