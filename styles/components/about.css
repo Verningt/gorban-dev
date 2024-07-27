@@ -9,14 +9,14 @@
   /* padding-top: 10rem; */
   padding-bottom: 10rem;
   background-color: #121212;
-
+}
 .about__card {
   display: flex;
   flex-direction: column;
-  width: 375px;
-  height: 640px;
+  width: 340px;
+  height: 600px;
   overflow: hidden;
-  /* background-color: #2f2f2f; */
+  background-color: #2f2f2f;
   border-radius: 0.75rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -78,7 +78,7 @@
   font-size: var(--size-xl);
   color: #f6f6db;
   font-weight: 400;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .section__title {
@@ -104,17 +104,17 @@
 
 .icon.about__i3 {
   color: #1eff65;
-  /* color: #1e92ff; */
+  color: #1e92ff;
 }
 
 .icon.about__i4 {
   color: #1e92ff;
-  /* color: #1eff62; */
+  color: #1eff62;
 }
 
-.icon.about__i1,
-.icon.about__i2,
-.icon.about__i3,
-.icon.about__i4 {
-  color: #ff3a1e;
-}
+/* .icon.about__i1,
+  .icon.about__i2,
+  .icon.about__i3,
+  .icon.about__i4 {
+    color: #ff3a1e;
+  } */
