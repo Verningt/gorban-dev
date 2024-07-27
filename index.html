@@ -12,6 +12,12 @@
       type="text/css"
       href="//fonts.googleapis.com/css?family=Orbitron"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- styles -->
     <link
@@ -32,6 +38,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-photo-gallery@0.1.1/dist/css/material-photo-gallery.min.css"
+    />
+    <link rel="stylesheet" href="material-photo-gallery.css" />
 
     <title>Gorban Transportation</title>
   </head>
@@ -334,7 +345,7 @@
       </div>
 
       <!-- slider starts -->
-      <div class="hero__container-slider main-wrapper wow">
+      <!-- <div class="hero__container-slider main-wrapper wow">
         <div class="slider__container">
           <div
             class="slider"
@@ -413,7 +424,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- slider ends -->
     </section>
     <!-- contact ends -->
@@ -490,6 +501,58 @@
     </div> -->
     <!-- gallery ends -->
 
+    <div class="m-p-g">
+      <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+        <img
+          src="http://unsplash.it/600/400?image=940"
+          data-full="http://unsplash.it/1200/800?image=940"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/640/450?image=906"
+          data-full="http://unsplash.it/1280/900?image=906"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/550/420?image=885"
+          data-full="http://unsplash.it/1100/840?image=885"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/650/450?image=823"
+          data-full="http://unsplash.it/1300/900?image=823"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/600/350?image=815"
+          data-full="http://unsplash.it/1200/700?image=815"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/560/500?image=677"
+          data-full="http://unsplash.it/1120/1000?image=677"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/670/410?image=401"
+          data-full="http://unsplash.it/1340/820?image=401"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/620/340?image=623"
+          data-full="http://unsplash.it/1240/680?image=623"
+          class="m-p-g__thumbs-img"
+        />
+        <img
+          src="http://unsplash.it/790/390?image=339"
+          data-full="http://unsplash.it/1580/780?image=339"
+          class="m-p-g__thumbs-img"
+        />
+      </div>
+
+      <div class="m-p-g__fullscreen"></div>
+    </div>
+
     <!-- footer starts -->
     <footer></footer>
     <!-- footer ends -->
@@ -529,13 +592,21 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-
-    <script>
-      new WOW().init();
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/material-photo-gallery@0.1.1/dist/js/material-photo-gallery.min.js"></script>
+    <script src="material-photo-gallery.min.js"></script>
     <script type="module" src="./src/app.js"></script>
     <script type="module" src="./src/main.js"></script>
+    <script>
+      var elem = document.querySelector(".m-p-g");
 
+      document.addEventListener("DOMContentLoaded", function () {
+        var gallery = new MaterialPhotoGallery(elem);
+      });
+    </script>
+
+    <!-- <script>
+      new WOW().init();
+    </script>
     <script>
       $(document).on("click", '[data-toggle="lightbox"]', function (event) {
         event.preventDefault();
@@ -557,6 +628,6 @@
         }
         lastScrollY = window.scrollY;
       });
-    </script>
+    </script> -->
   </body>
 </html>

@@ -66,6 +66,7 @@ body {
   /* background-color: #121212; */
   /* background-color: #343434; */
   color: var(--clr-stone-dark);
+  font-family: "Jost", sans-serif;
 }
 
 /* body::before {
