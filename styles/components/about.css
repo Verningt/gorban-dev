@@ -43,9 +43,9 @@
   background: linear-gradient(rgb(35, 35, 35) 50%, #ff3a1e 110%);
 } */
 
-/* .about__img {
-  height: 45%;
-} */
+.about__img {
+  height: 44%;
+}
 
 .about__img img {
   border-radius: 0 0 0 5rem;
