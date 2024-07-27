@@ -8,7 +8,7 @@
   gap: 3rem;
   /* padding-top: 10rem; */
   padding-bottom: 10rem;
-  background-color: #121212;
+  background-color: hsl(0, 0%, 5%);
 }
 
 .about__card {
@@ -21,7 +21,7 @@
   border-radius: 2rem;
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
-  border: 1px solid rgb(100, 100, 100);
+  /* border: 1px solid rgb(100, 100, 100); */
   --angle: 45deg;
   /* background: linear-gradient(var(--angle), rgb(35, 35, 35), rgb(60, 60, 60));
 
@@ -31,18 +31,18 @@
 }
 
 .about__card.one {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #716517 110%);
-  background: linear-gradient(rgb(35, 35, 35) 50%, #712c17 110%);
+  background: linear-gradient(rgb(35, 35, 35) 50%, #ff3a1e 110%);
+  /* background: linear-gradient(rgb(35, 35, 35) 50%, #712c17 110%); */
 }
 .about__card.two {
   background: linear-gradient(rgb(35, 35, 35) 50%, #712c17 110%);
-  background: linear-gradient(rgb(35, 35, 35) 50%, #716517 110%);
+  background: linear-gradient(rgb(35, 35, 35) 50%, #ffb01e 110%);
 }
 .about__card.three {
   background: linear-gradient(rgb(35, 35, 35) 50%, #177152 110%);
 }
 .about__card.four {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #175071 110%);
+  background: linear-gradient(rgb(35, 35, 35) 50%, #193bd4 110%);
 }
 
 .about__img {
@@ -53,7 +53,7 @@
   border-radius: 0 0 0 5rem;
   object-fit: cover;
   height: 100%;
-  border-bottom: 1px solid rgb(100, 100, 100);
+  /* border-bottom: 1px solid rgb(100, 100, 100); */
 }
 
 .about__info {
@@ -96,23 +96,23 @@
 }
 
 .icon.about__i1 {
-  color: #ffcb1e;
-  /* color: #ff3a1e; */
+  /* color: #ffcb1e; */
+  color: #ff3a1e;
 }
 
 .icon.about__i2 {
   color: #ff3a1e;
-  /* color: #ffcb1e; */
+  color: #ffcb1e;
 }
 
 .icon.about__i3 {
-  color: #1eff62;
-  color: #1e92ff;
+  color: #1eff65;
+  /* color: #1e92ff; */
 }
 
 .icon.about__i4 {
   color: #1e92ff;
-  color: #1eff62;
+  /* color: #1eff62; */
 }
 
 /* .icon.about__i1,
