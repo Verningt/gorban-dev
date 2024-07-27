@@ -27,15 +27,13 @@
 
   background: linear-gradient(rgb(35, 35, 35), rgb(60, 60, 60)); */
 
-  /* background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, #177152 98.8%); */
+  background: linear-gradient(109.6deg, rgb(20, 20, 20) 32.4%, #ff3a1e 98.8%);
 }
 
-.about__card.one {
+/* .about__card.one {
   background: linear-gradient(rgb(35, 35, 35) 50%, #ff3a1e 110%);
-  /* background: linear-gradient(rgb(35, 35, 35) 50%, #712c17 110%); */
 }
 .about__card.two {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #712c17 110%);
   background: linear-gradient(rgb(35, 35, 35) 50%, #ffb01e 110%);
 }
 .about__card.three {
@@ -43,7 +41,7 @@
 }
 .about__card.four {
   background: linear-gradient(rgb(35, 35, 35) 50%, #193bd4 110%);
-}
+} */
 
 .about__img {
   height: 44%;
@@ -115,9 +113,9 @@
   /* color: #1eff62; */
 }
 
-/* .icon.about__i1,
+.icon.about__i1,
 .icon.about__i2,
 .icon.about__i3,
 .icon.about__i4 {
-  color: #1e92ff;
-} */
+  color: #ffb01e;
+}
