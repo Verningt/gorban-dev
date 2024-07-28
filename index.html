@@ -33,17 +33,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/material-photo-gallery@0.1.1/dist/css/material-photo-gallery.min.css"
-    />
-    <link rel="stylesheet" href="material-photo-gallery.css" />
-
     <title>Gorban Transportation</title>
   </head>
 
@@ -430,7 +419,7 @@
     <!-- contact ends -->
 
     <!-- gallery starts -->
-    <!-- <a name="gallery"></a>
+    <a name="gallery"></a>
     <div class="gallery main-wrapper">
       <a
         href="https://unsplash.it/1200/768.jpg?image=251"
@@ -493,124 +482,13 @@
           class="img-fluid custom-thumbnail"
         />
       </a>
-    </div> -->
+    </div>
     <!-- gallery ends -->
 
     <div class="gallery__title main-wrapper">
       <h3 class="gallery__text1">Gallery</h3>
       <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
     </div>
-
-    <div class="m-p-g">
-      <div class="m-p-g__thumbs" data-google-image-layout data-max-height="200">
-        <img
-          src="/public/img1.jpg"
-          data-full="/public/img1.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="/public/img2.jpg"
-          data-full="/public/img2.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="/public/img3.jpg"
-          data-full="/public/img3.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <!-- <img
-          src="./public/_4.jpg"
-          data-full="./public/_4.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/_5.jpg"
-          data-full="./public/_5.jpg"
-          class="m-p-g__thumbs-img"
-        /> -->
-        <!-- <img
-          src="./public/gallery/6.jpg"
-          data-full="./public/gallery/6.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/7.jpg"
-          data-full="./public/gallery/7.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/8.jpg"
-          data-full="./public/gallery/8.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/9.jpg"
-          data-full="./public/gallery/9.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/10.jpg"
-          data-full="./public/gallery/10.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/11.jpg"
-          data-full="./public/gallery/11.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/12.jpg"
-          data-full="./public/gallery/12.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/13.jpg"
-          data-full="./public/gallery/13.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/14.jpg"
-          data-full="./public/gallery/14.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/15.jpg"
-          data-full="./public/gallery/15.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/16.jpg"
-          data-full="./public/gallery/16.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/17.jpg"
-          data-full="./public/gallery/17.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/18.jpg"
-          data-full="./public/gallery/18.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/19.jpg"
-          data-full="./public/gallery/19.jpg"
-          class="m-p-g__thumbs-img"
-        />
-        <img
-          src="./public/gallery/20.jpg"
-          data-full="./public/gallery/20.jpg"
-          class="m-p-g__thumbs-img"
-        /> -->
-      </div>
-
-      <div class="m-p-g__fullscreen"></div>
-    </div>
-
-    <!-- footer starts -->
-    <footer></footer>
-    <!-- footer ends -->
 
     <!-- scripts -->
     <script
@@ -646,38 +524,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/material-photo-gallery@0.1.1/dist/js/material-photo-gallery.min.js"></script>
-    <script src="material-photo-gallery.min.js"></script>
-    <script type="module" src="./src/app.js"></script>
     <script type="module" src="./src/main.js"></script>
+
     <script>
-      var MaterialPhotoGallery = require("material-photo-gallery");
-
-      var elem = document.querySelector(".m-p-g");
-      var gallery = new MaterialPhotoGallery(elem);
-    </script>
-    <script>
-      var elem = document.querySelector(".m-p-g");
-
-      document.addEventListener("DOMContentLoaded", function () {
-        var gallery = new MaterialPhotoGallery(elem);
-      });
-    </script>
-
-    <!-- <script>
       $(document).on("click", '[data-toggle="lightbox"]', function (event) {
         event.preventDefault();
         $(this).ekkoLightbox();
       });
-    </script> -->
+    </script>
 
     <script>
       let lastScrollY = window.scrollY;
 
       window.addEventListener("scroll", () => {
         const header = document.querySelector(".header");
-        if (window.scrollY > lastScrollY && window.scrollY > 50) {
+        if (window.scrollY > lastScrollY && window.scrollY > 500) {
           // Скрываем хедер при прокрутке вниз, если прокрутили больше 50px
           header.classList.add("hidden");
         } else {
