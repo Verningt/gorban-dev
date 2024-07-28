@@ -12,6 +12,23 @@
       rel="stylesheet"
     />
 
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- for on scroll animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
     <!-- styles -->
     <title>Gorban Transportation</title>
   </head>
@@ -59,103 +76,30 @@
     <!-- header ends -->
 
     <!-- hero starts -->
-    <div class="hero__container-slider main-wrapper">
-      <div class="slider__container">
-        <!-- <div
-          class="slider"
-          style="--width: 250px; --height: 205px; --quantity: 10"
-        >
-          <div class="slider__list">
-            <div class="slider__item" style="--position: 1">
-              <img src="/public/imgs/img4.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 2">
-              <img src="/public/imgs/img5.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 3">
-              <img src="/public/imgs/img6.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 4">
-              <img src="/public/imgs/img7.JPG" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 5">
-              <img src="/public/imgs/img8.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 6">
-              <img src="/public/imgs/img9.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 7">
-              <img src="/public/imgs/img10.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 8">
-              <img src="/public/imgs/img1.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 9">
-              <img src="/public/imgs/img2.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 10">
-              <img src="/public/imgs/img11.jpg" alt="" />
-            </div>
-          </div>
-        </div> -->
 
-        <div
-          class="slider"
-          reverse="true"
-          style="--width: 175px; --height: 150px; --quantity: 10"
-        >
-          <div class="slider__list">
-            <div class="slider__item" style="--position: 1">
-              <img src="/public/imgs/img10.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 2">
-              <img src="/public/imgs/img9.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 3">
-              <img src="/public/imgs/img8.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 4">
-              <img src="/public/imgs/img7.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 5">
-              <img src="/public/imgs/img6.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 6">
-              <img src="/public/imgs/img5.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 7">
-              <img src="/public/imgs/img4.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 8">
-              <img src="/public/imgs/img3.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 9">
-              <img src="/public/imgs/img2.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 10">
-              <img src="/public/imgs/img1.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="hero__container">
       <section class="hero main-wrapper">
-        <div class="hero__logo">
+        <div class="hero__logo wow fadeInUp" data-wow-delay="0.1s">
           <img class="header__logo" src="/logo.png" alt="Logo image" />
         </div>
         <div class="hero__text">
-          <h1 class="hero__text1">
-            Gorban<span class="hero__text2">Transportation</span>
+          <h1 class="hero__text1 wow fadeInUp" data-wow-delay="0.1s">
+            Gorban<span class="hero__text2 wow fadeInUp" data-wow-delay="0.2s"
+              >Transportation</span
+            >
           </h1>
 
-          <p class="hero__text3">
+          <p class="hero__text3 wow fadeInUp" data-wow-delay="0.7s">
             Transporting Exotic and Luxury Vehicles <br />
             With Unmatched Dedication to Continuous <br />
             Improvement and Customer Satisfaction.
           </p>
           <div class="hero__btns">
-            <a class="hero__btn0 btn" href="#contact">
+            <a
+              class="hero__btn0 btn wow fadeInUp"
+              data-wow-delay="1.3s"
+              href="#contact"
+            >
               <div>Contact Us</div>
             </a>
             <!-- <a class="hero__btn2 btn" href="tel:+13145047886">
@@ -181,13 +125,13 @@
 
     <!-- about starts -->
     <a name="about"></a>
+    <div>
+      <h3 class="section__title">About</h3>
+      <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
+    </div>
     <section class="about__container">
-      <div>
-        <h3 class="section__title">About</h3>
-        <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
-      </div>
       <div class="about">
-        <div class="about__card one">
+        <div class="about__card one wow fadeInUp" data-wow-delay="0.5s">
           <div class="about__img">
             <img src="/public/imgs/img12.jpg" alt="" />
           </div>
@@ -218,7 +162,7 @@
           </div>
         </div>
 
-        <div class="about__card two">
+        <div class="about__card two wow fadeInUp" data-wow-delay="0.5s">
           <div class="about__img">
             <img src="/public/imgs/img6.jpg" alt="" />
           </div>
@@ -250,7 +194,7 @@
           </div>
         </div>
 
-        <div class="about__card three">
+        <div class="about__card three wow fadeInUp" data-wow-delay="0.5s">
           <div class="about__img">
             <img src="/public/imgs/img3.jpg" alt="" />
           </div>
@@ -282,7 +226,7 @@
           </div>
         </div>
 
-        <div class="about__card four">
+        <div class="about__card four wow fadeInUp" data-wow-delay="0.5s">
           <div class="about__img">
             <img src="/public/imgs/img1.jpg" alt="" />
           </div>
@@ -320,83 +264,169 @@
     <!-- gallery starts -->
     <a name="gallery"></a>
     <!-- Create links -->
+
+    <div class="">
+      <h3 class="section__title">Gallery</h3>
+      <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
+    </div>
     <section class="gallery__container">
-      <div class="">
-        <h3 class="section__title">Gallery</h3>
-        <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
-      </div>
       <div class="gallery main-wrapper">
-        <a data-fslightbox="gallery" href="/21.JPG">
-          <img src="/21.JPG" alt="" />
+        <a data-fslightbox="gallery " href="/21.JPG">
+          <img
+            src="/21.JPG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/22.JPG">
-          <img src="/22.JPG" alt="" />
+          <img
+            src="/22.JPG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/3.JPG">
-          <img src="/3.JPG" alt="" />
+          <img src="/3.JPG" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/4.jpg">
-          <img src="/4.jpg" alt="" />
+          <img src="/4.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/1.jpeg">
-          <img src="/1.jpeg" alt="" />
+          <img
+            src="/1.jpeg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/5.jpg">
-          <img src="/5.jpg" alt="" />
+          <img src="/5.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/6.jpg">
-          <img src="/6.jpg" alt="" />
+          <img src="/6.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/7.jpg">
-          <img src="/7.jpg" alt="" />
+          <img src="/7.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/8.jpg">
-          <img src="/8.jpg" alt="" />
+          <img src="/8.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/13.jpg">
-          <img src="/13.jpg" alt="" />
+          <img
+            src="/13.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/14.jpg">
-          <img src="/14.jpg" alt="" />
+          <img
+            src="/14.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/15.jpg">
-          <img src="/15.jpg" alt="" />
+          <img
+            src="/15.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/9.jpg">
-          <img src="/9.jpg" alt="" />
+          <img src="/9.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.2s" />
         </a>
         <a data-fslightbox="gallery" href="/10.jpg">
-          <img src="/10.jpg" alt="" />
+          <img
+            src="/10.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/11.jpg">
-          <img src="/11.jpg" alt="" />
+          <img
+            src="/11.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/12.jpg">
-          <img src="/12.jpg" alt="" />
+          <img
+            src="/12.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/26.JPEG">
-          <img src="/26.JPEG" alt="" />
+          <img
+            src="/26.JPEG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/img1.jpg">
-          <img src="/img1.jpg" alt="" />
+          <img
+            src="/img1.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/17.jpg">
-          <img src="/17.jpg" alt="" />
+          <img
+            src="/17.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/19.jpg">
-          <img src="/19.jpg" alt="" />
+          <img
+            src="/19.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/23.JPG">
-          <img src="/23.JPG" alt="" />
+          <img
+            src="/23.JPG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/24.jpg">
-          <img src="/24.jpg" alt="" />
+          <img
+            src="/24.jpg"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/25.JPG">
-          <img src="/25.JPG" alt="" />
+          <img
+            src="/25.JPG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
         <a data-fslightbox="gallery" href="/2.JPEG">
-          <img src="/2.JPEG" alt="" />
+          <img
+            src="/2.JPEG"
+            alt=""
+            class="wow fadeInUp"
+            data-wow-delay="0.2s"
+          />
         </a>
       </div>
     </section>
@@ -405,12 +435,12 @@
 
     <!-- contact starts -->
     <a name="contact"></a>
+    <div>
+      <h3 class="section__title">Contact</h3>
+      <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
+    </div>
     <section class="contact">
       <div class="contact__wrapper main-wrapper">
-        <div class="main-wrapper">
-          <h3 class="section__title">Contact</h3>
-          <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
-        </div>
         <p class="contact__text">
           We are always looking for new <br />
           opportunities to collaborate. <br />
@@ -482,91 +512,153 @@
           </a>
         </div>
       </div>
-    </section>
-    <!-- contact ends -->
+      <!-- slider starts -->
+      <div class="hero__container-slider main-wrapper wow">
+        <div class="slider__container">
+          <div
+            class="slider"
+            style="--width: 250px; --height: 205px; --quantity: 10"
+          >
+            <div class="slider__list">
+              <div class="slider__item" style="--position: 1">
+                <img src="/public/imgs/img4.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 2">
+                <img src="/public/imgs/img5.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 3">
+                <img src="/public/imgs/img6.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 4">
+                <img src="/public/imgs/img7.JPG" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 5">
+                <img src="/public/imgs/img8.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 6">
+                <img src="/public/imgs/img9.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 7">
+                <img src="/public/imgs/img10.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 8">
+                <img src="/public/imgs/img1.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 9">
+                <img src="/public/imgs/img2.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 10">
+                <img src="/public/imgs/img11.jpg" alt="" />
+              </div>
+            </div>
+          </div>
 
-    <!-- slider starts -->
-    <div class="hero__container-slider main-wrapper wow">
-      <div class="slider__container">
-        <div
-          class="slider"
-          style="--width: 250px; --height: 205px; --quantity: 10"
-        >
-          <div class="slider__list">
-            <div class="slider__item" style="--position: 1">
-              <img src="/public/imgs/img4.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 2">
-              <img src="/public/imgs/img5.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 3">
-              <img src="/public/imgs/img6.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 4">
-              <img src="/public/imgs/img7.JPG" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 5">
-              <img src="/public/imgs/img8.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 6">
-              <img src="/public/imgs/img9.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 7">
-              <img src="/public/imgs/img10.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 8">
-              <img src="/public/imgs/img1.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 9">
-              <img src="/public/imgs/img2.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 10">
-              <img src="/public/imgs/img11.jpg" alt="" />
+          <div
+            class="slider"
+            reverse="true"
+            style="--width: 250px; --height: 230px; --quantity: 10"
+          >
+            <div class="slider__list">
+              <div class="slider__item" style="--position: 1">
+                <img src="/public/imgs/img10.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 2">
+                <img src="/public/imgs/img9.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 3">
+                <img src="/public/imgs/img8.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 4">
+                <img src="/public/imgs/img7.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 5">
+                <img src="/public/imgs/img6.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 6">
+                <img src="/public/imgs/img5.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 7">
+                <img src="/public/imgs/img4.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 8">
+                <img src="/public/imgs/img3.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 9">
+                <img src="/public/imgs/img2.jpg" alt="" />
+              </div>
+              <div class="slider__item" style="--position: 10">
+                <img src="/public/imgs/img1.jpg" alt="" />
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <!-- slider ends -->
+    </section>
+    <!-- contact ends -->
 
-        <div
-          class="slider"
-          reverse="true"
-          style="--width: 250px; --height: 230px; --quantity: 10"
-        >
-          <div class="slider__list">
-            <div class="slider__item" style="--position: 1">
-              <img src="/public/imgs/img10.jpg" alt="" />
+    <div class="footer">
+      <div class="container">
+        <div class="info">
+          <div class="row">
+            <div
+              class="col-md-4 wow fadeInUp"
+              data-wow-delay="0.3s"
+              id="address"
+            >
+              <p>Workarea</p>
+              <h4>1287 Hidden Oak Dr,</h4>
+              <h4>Chesterfield,</h4>
+              <h4>MO 63017</h4>
+
+              <br /><br />
             </div>
-            <div class="slider__item" style="--position: 2">
-              <img src="/public/imgs/img9.jpg" alt="" />
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" id="media">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/p/Gorban-Transportation-100063706987319/"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/gorbantransportation"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <!-- <li><ion-icon name="logo-twitter"></ion-icon></li> -->
+
+                <!-- <li><ion-icon name="logo-youtube"></ion-icon></li> -->
+              </ul>
+
+              <br /><br />
             </div>
-            <div class="slider__item" style="--position: 3">
-              <img src="/public/imgs/img8.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 4">
-              <img src="/public/imgs/img7.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 5">
-              <img src="/public/imgs/img6.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 6">
-              <img src="/public/imgs/img5.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 7">
-              <img src="/public/imgs/img4.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 8">
-              <img src="/public/imgs/img3.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 9">
-              <img src="/public/imgs/img2.jpg" alt="" />
-            </div>
-            <div class="slider__item" style="--position: 10">
-              <img src="/public/imgs/img1.jpg" alt="" />
+
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s" id="mail">
+              <p>
+                Vladimir Gorban <br />
+                President, Gorban Transportation, Inc.
+              </p>
+
+              <h4>
+                Mail: gortrans@live.com <br />
+                Tel: 314-504-7886
+              </h4>
+
+              <br /><br />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- slider ends -->
 
     <!-- scripts -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -576,6 +668,8 @@
     <!-- Main JS -->
     <script type="module" src="./src/main.js"></script>
     <!-- <script src="./src/fslightbox.js"></script> -->
-    <script></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

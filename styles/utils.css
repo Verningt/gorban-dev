@@ -81,6 +81,18 @@
 }
 
 .section__title {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+  background: linear-gradient(109.6deg, rgb(30, 30, 30) 12.4%, #494949 98.8%);
+  background: linear-gradient(
+    200deg,
+    rgb(6, 2, 2) 32.4%,
+    var(--clr-peach) 98.8%
+  );
+
+  /* border-top: 1px solid rgb(80, 80, 80); */
+  /* border-bottom: 1px solid rgb(80, 80, 80); */
   width: 100%;
   font-family: "Orbitron", sans-serif;
   text-transform: uppercase;
@@ -89,7 +101,6 @@
   font-weight: 1000;
   text-align: center;
   margin: 0;
-  background-color: #fff;
 }
 
 /* xxs */
