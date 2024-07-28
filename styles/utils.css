@@ -48,7 +48,6 @@
 
 .btn:hover {
   transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
-
   color: var(--clr-peach);
   background-position: 1% 50%;
 }
@@ -61,6 +60,7 @@
 
 .btn-text {
   width: 250px;
+  text-align: left;
 }
 
 .main-wrapper {

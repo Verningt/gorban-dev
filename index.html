@@ -13,6 +13,20 @@
     />
 
     <!-- styles -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Lightbox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+      integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Gorban Transportation</title>
   </head>
 
@@ -314,6 +328,81 @@
     </section>
     <!-- contact ends -->
 
+    <!-- gallery starts -->
+    <div class="container">
+      <div class="row">
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=251"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=251"
+            class="img-fluid rounded"
+          />
+        </a>
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=252"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=252"
+            class="img-fluid rounded"
+          />
+        </a>
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=253"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=253"
+            class="img-fluid rounded"
+          />
+        </a>
+      </div>
+      <div class="row">
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=254"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=254"
+            class="img-fluid rounded"
+          />
+        </a>
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=255"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=255"
+            class="img-fluid rounded"
+          />
+        </a>
+        <a
+          href="https://unsplash.it/1200/768.jpg?image=256"
+          data-toggle="lightbox"
+          data-gallery="gallery"
+          class="col-md-4"
+        >
+          <img
+            src="https://unsplash.it/600.jpg?image=256"
+            class="img-fluid rounded"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- gallery ends -->
+
     <!-- slider starts -->
     <!-- <div class="hero__container-slider main-wrapper wow">
         <div class="slider__container">
@@ -398,6 +487,31 @@
     <!-- slider ends -->
 
     <!-- scripts -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Lightbox JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+      integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"
+      integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Main JS -->
     <script type="module" src="./src/main.js"></script>
+
+    <script>
+      $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
   </body>
 </html>
