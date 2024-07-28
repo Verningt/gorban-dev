@@ -33,6 +33,10 @@
   position: relative;
 }
 
+.header__link {
+  color: #fff;
+}
+
 .header__left {
   display: flex;
   align-items: center;
@@ -118,18 +122,10 @@
     font-size: var(--size-s);
     text-decoration: none;
     font-weight: 600;
-    color: var(--clr-stone-light);
     transition: 0.3s;
     position: relative;
     text-transform: uppercase;
-  }
-
-  .header__link {
-    color: var(--clr-stone-dark);
-  }
-
-  .header__link:hover {
-    color: var(--clr-peach);
+    color: var(--clr-stone-light);
   }
 
   .header__toggle {

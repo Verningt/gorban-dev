@@ -5,23 +5,20 @@
   background-color: #e1e0dd;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .contact__text {
   padding-top: 1rem;
-  /* padding-bottom: 1rem; */
-  font-size: var(--size-2xl);
+  padding-bottom: 1rem;
+  font-size: var(--size-xl);
   color: var(--clr-stone600);
   font-weight: 400;
-  letter-spacing: 0.75px;
   text-align: center;
 }
 
 .contact .hero__btns {
   display: flex;
   flex-wrap: wrap;
-}
-
-.hero__btns .hero__btn3 {
-  width: 100%;
+  flex-direction: column;
 }

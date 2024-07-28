@@ -9,41 +9,22 @@
   /* padding-top: 10rem; */
   padding-bottom: 10rem;
   background-color: #121212;
-  /* background-color: #f5f5f5; */
 }
 .about__card {
   display: flex;
   flex-direction: column;
   width: 340px;
-  height: 600px;
+  height: 650px;
   overflow: hidden;
   background-color: #2f2f2f;
-  border-radius: 0.75rem;
+  border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  /* border: 1px solid rgb(100, 100, 100); */
+  border: 1px solid rgb(80, 80, 80);
   --angle: 45deg;
   /* background: linear-gradient(var(--angle), rgb(35, 35, 35), rgb(60, 60, 60)); */
-
-  /* background: linear-gradient(rgb(35, 35, 35), rgb(60, 60, 60)); */
-  /* background: linear-gradient(#9b998f, #42262a); */
-
   /* background: linear-gradient(109.6deg, rgb(30, 30, 30) 12.4%, #494949 98.8%); */
-  /* background-color: #c3c0b6; */
 }
-
-/* .about__card.one {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #ff3a1e 110%);
-}
-.about__card.two {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #ffb01e 110%);
-}
-.about__card.three {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #177152 110%);
-}
-.about__card.four {
-  background: linear-gradient(rgb(35, 35, 35) 50%, #193bd4 110%);
-} */
 
 .about__img {
   height: 44%;
@@ -82,17 +63,6 @@
   color: #f6f6db;
   font-weight: 400;
   /* letter-spacing: 1px; */
-}
-
-.section__title {
-  width: 100%;
-  font-family: "Orbitron", sans-serif;
-  text-transform: uppercase;
-  color: var(--clr-stone400);
-  font-size: var(--size-5xl);
-  font-weight: 1000;
-  text-align: center;
-  margin: 0;
 }
 
 /* .icon.about__i1 {
