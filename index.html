@@ -501,31 +501,31 @@
       <!-- <h4 class="about__text2">Gorban Transportation Inc.</h4> -->
     </div>
 
-    <div class="m-p-g main-wrapper">
-      <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+    <div class="m-p-g">
+      <div class="m-p-g__thumbs" data-google-image-layout data-max-height="200">
         <img
-          src="./public/gallery/1.jpeg"
-          data-full="./public/gallery/1.jpeg"
+          src="/public/_1.jpeg"
+          data-full="/public/_1.jpeg"
           class="m-p-g__thumbs-img"
         />
         <img
-          src="./public/gallery/2.JPEG"
-          data-full="./public/gallery/2.JPEG"
+          src="/public/_2.JPEG"
+          data-full="/public/_2.JPEG"
           class="m-p-g__thumbs-img"
         />
         <img
-          src="./public/gallery/3.JPG"
-          data-full="./public/gallery/3.JPG"
+          src="/public/_3.JPG"
+          data-full="/public/_3.JPG"
           class="m-p-g__thumbs-img"
         />
         <img
-          src="./public/gallery/4.jpg"
-          data-full="./public/gallery/4.jpg"
+          src="/public/_4.jpg"
+          data-full="/public/_4.jpg"
           class="m-p-g__thumbs-img"
         />
         <img
-          src="./public/gallery/5.jpg"
-          data-full="./public/gallery/5.jpg"
+          src="/public/_5.jpg"
+          data-full="/public/_5.jpg"
           class="m-p-g__thumbs-img"
         />
         <img
@@ -651,6 +651,12 @@
     <script src="material-photo-gallery.min.js"></script>
     <script type="module" src="./src/app.js"></script>
     <script type="module" src="./src/main.js"></script>
+    <script>
+      var MaterialPhotoGallery = require("material-photo-gallery");
+
+      var elem = document.querySelector(".m-p-g");
+      var gallery = new MaterialPhotoGallery(elem);
+    </script>
     <script>
       var elem = document.querySelector(".m-p-g");
 
