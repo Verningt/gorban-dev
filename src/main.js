@@ -7,7 +7,14 @@ import "../styles/components/about.css";
 import "../styles/components/contact.css";
 import "../styles/components/gallery.css";
 import "../styles/components/footer.css";
+import "../styles/components/mobile-nav.css";
+import "../styles/components/mobile-nav.css";
 import "../styles/utils.css";
+
+import mobileNav from "./utils/mobile-nav";
+import navScrollHide from "./utils/navScrollHide";
+mobileNav();
+navScrollHide();
 
 !(function (e, t) {
   if ("object" == typeof exports && "object" == typeof module)

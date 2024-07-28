@@ -17,7 +17,7 @@
   padding-right: 2rem;
   border-radius: 5rem;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 15px 50px;
-  z-index: 1;
+  z-index: 1000;
   transition: transform 0.3s ease-in-out;
   /* background-color: var(--clr-stone); */
   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 50px -20px; */
@@ -134,5 +134,19 @@
 
   .header__toggle {
     display: none;
+  }
+}
+
+.header__left.hidden {
+  display: none;
+}
+
+.header__menu.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header__menu.hidden {
+    display: flex;
   }
 }
