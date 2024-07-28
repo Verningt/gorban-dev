@@ -37,6 +37,10 @@
   color: #fff;
 }
 
+.header__link:hover {
+  color: var(--clr-peach);
+}
+
 .header__left {
   display: flex;
   align-items: center;
