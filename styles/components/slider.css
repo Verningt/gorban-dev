@@ -4,7 +4,7 @@
   overflow: hidden;
   /* padding-top: 3rem; */
   /* padding-bottom: 1.4rem; */
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .slider {
@@ -31,7 +31,7 @@
   animation-delay: calc(
     (500s / var(--quantity)) * (var(--position) - var(--quantity))
   ) !important;
-  /* filter: grayscale(1); */
+  filter: grayscale(1);
   transition: 0.5s;
 }
 
