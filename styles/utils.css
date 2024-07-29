@@ -84,7 +84,8 @@
   padding-top: 1rem;
   padding-bottom: 0.1rem;
 
-  background: linear-gradient(109.6deg, rgb(30, 30, 30) 12.4%, #494949 98.8%);
+  /* background: linear-gradient(109.6deg, rgb(30, 30, 30) 12.4%, #494949 98.8%); */
+  background: linear-gradient(109.6deg, rgb(30, 30, 30) 12.4%, #410102 98.8%);
   /* background: linear-gradient(
     200deg,
     rgb(6, 2, 2) 32.4%,
