@@ -11,13 +11,14 @@
 }
 
 .footer .hero__logo {
-  width: 100px;
+  width: 75px;
 }
 
 .footer p {
   color: var(--clr-stone400);
   font-size: var(--size-lg);
   text-align: center;
+  /* text-transform: uppercase; */
 }
 
 .footer__icon {
