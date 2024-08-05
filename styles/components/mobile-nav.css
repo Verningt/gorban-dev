@@ -1,7 +1,7 @@
 .mobile-nav {
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   z-index: 999;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(10px);
@@ -20,13 +20,14 @@
 }
 
 .mobile-nav__menu {
+  list-style: none; /* Удаляем маркеры списка */
+  padding: 0; /* Удаляем внутренние отступы */
+  margin: 0; /* Удаляем внешние отступы */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  list-style: none;
-  gap: 4em;
-  position: relative; /* Ensure proper positioning */
+  gap: 2em;
 }
 
 .mobile-nav__link {
