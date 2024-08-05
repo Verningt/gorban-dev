@@ -1,7 +1,9 @@
 .mobile-nav {
   position: fixed;
-  height: 100%;
-  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100vh; /* Высота на весь экран */
+  width: 100vw; /* Ширина на весь экран */
   z-index: 999;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(10px);
@@ -10,19 +12,19 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  pointer-events: none; /* No interaction when hidden */
+  pointer-events: none; /* Нет взаимодействия, когда скрыто */
   transition: opacity 0.3s ease-in-out;
 }
 
 .mobile-nav.open {
   opacity: 1;
-  pointer-events: auto; /* Allow interaction when visible */
+  pointer-events: auto; /* Разрешить взаимодействие, когда видно */
 }
 
 .mobile-nav__menu {
-  list-style: none; /* Remove list markers */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margin */
+  list-style: none; /* Удаляем маркеры списка */
+  padding: 0; /* Удаляем внутренние отступы */
+  margin: 0; /* Удаляем внешние отступы */
   display: flex;
   flex-direction: column;
   justify-content: center;
