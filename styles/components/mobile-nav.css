@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  pointer-events: none; /* Ensure no interaction when hidden */
+  pointer-events: none; /* No interaction when hidden */
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -20,9 +20,9 @@
 }
 
 .mobile-nav__menu {
-  list-style: none; /* Удаляем маркеры списка */
-  padding: 0; /* Удаляем внутренние отступы */
-  margin: 0; /* Удаляем внешние отступы */
+  list-style: none; /* Remove list markers */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
   display: flex;
   flex-direction: column;
   justify-content: center;
