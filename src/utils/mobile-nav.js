@@ -13,7 +13,7 @@ const mobileNav = () => {
     } else {
       mobileNav.classList.remove("open");
       setTimeout(() => {
-        document.body.style.overflowY = "auto";
+        document.body.style.overflowY = "flex";
       }, 300); // Duration should match the CSS transition duration
     }
   });
@@ -23,7 +23,7 @@ const mobileNav = () => {
       isMobileNavOpen = false;
       mobileNav.classList.remove("open");
       setTimeout(() => {
-        document.body.style.overflowY = "auto";
+        document.body.style.overflowY = "flex";
       }, 300); // Duration should match the CSS transition duration
     });
   });
