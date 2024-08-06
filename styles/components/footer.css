@@ -16,13 +16,18 @@
 
 .footer p {
   color: var(--clr-stone400);
-  font-size: var(--size-lg);
+  font-size: var(--size-sm);
   text-align: center;
   /* text-transform: uppercase; */
 }
 
 .footer__icon {
-  width: var(--size-4xl);
-  height: var(--size-4xl);
+  width: var(--size-3xl);
+  height: var(--size-3xl);
   color: var(--clr-stone400);
+  transition: 0.3s;
+}
+
+.footer__icon:hover {
+  color: var(--clr-peach);
 }
